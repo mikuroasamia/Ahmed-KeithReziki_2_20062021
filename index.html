@@ -7,12 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
     <link rel="stylesheet" href="resources/css/style.css">
+
 </head>
 
 <body>
+    <nav>
+        <a href="#"><img src="resources/images/logo/Reservia.svg" alt="Logo de la compagnie Reservia"></a>
+        <ul>
+            <li><a href="#">Hébergements</a></li>
+            <li><a href="#">Activités</a></li>
+        </ul>
+        <span><a href="#">S'inscrire</a></span>
+    </nav>
     <header>
-        <nav></nav>
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+        <p>En plein centre ville ou en pleine nature</p>
+        <form action="">
+            <i class="fas fa-map-marker-alt"></i>
+            <input class="placeholder" type="search" name="search" placeholder="Marseille,France">
+            <input type="submit" value="Search">
+        </form>
+        <!--filtre bar-->
+        <div class="">
+            <h3>Filtres</h3>
+            <div class="btns-filters">
+                <button class="btn-filter">
+                    <i class="fas fa-money-bill-wave fa-1x" aria-hidden="true"></i>
+                    <span>Économique</span>
+                </button>
 
+                <button class="btn-filter">
+                    <i class="fas fa-child"></i>
+                    <span>Familial</span>
+                </button>
+
+                <button class="btn-filter">
+                    <i class="fas fa-heart"></i>
+                    <span>Romantique</span>
+                </button>
+
+                <button class="btn-filter">
+                    <i class="fas fa-dog"></i>
+                    <span>Animaux autorisés</span>
+                </button>
+            </div>
+        </div>
     </header>
     <main>
         <article>
@@ -41,6 +80,7 @@
         </section>
     </footer>
 
+    <script src="https://kit.fontawesome.com/765bb91cdb.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
