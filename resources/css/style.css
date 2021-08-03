@@ -1,0 +1,21 @@
+/* Normalize */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+/* Large Screen*/
+.main-article,
+aside {
+  background-color: #ececec;
+}
