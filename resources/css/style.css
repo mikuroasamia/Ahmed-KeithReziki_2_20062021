@@ -8,14 +8,50 @@
   padding: 0;
   font-family: "Raleway", sans-serif;
 }
+/* color theme
+bleu #0065FC
+bleu claire #DEEBFF
+gris #F2F2F2
+*/
+
+/* icones
+Tu peux intégrer les icônes Font Awesome en HTML ou CSS ?
+*/
+
+/* dossier de rendu
+pense a organiser ton dossier de rendu ?
+*/
 
 img {
   max-width: 400px;
   max-height: 400px;
 }
 
-/* Large Screen*/
+ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  outline: none;
+  text-decoration: none;
+}
+
 .main-article,
 aside {
-  background-color: #ececec;
+  background-color: #f2f2f2;
 }
+
+.card {
+  background-color: #f2f2f2;
+}
+
+.checked {
+  color: #0065fc;
+}
+
+.empty {
+  color: #f2f2f2;
+}
+
+/* Large Screen*/
