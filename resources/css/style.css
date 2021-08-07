@@ -8,6 +8,10 @@
   padding: 0;
   font-family: "Raleway", sans-serif;
 }
+
+body {
+  margin: auto;
+}
 /* color theme
 bleu #0065FC
 bleu claire #DEEBFF
@@ -24,10 +28,21 @@ ul {
   display: flex;
 }
 
-nav a {
-  outline: none;
+nav ul li,
+nav ul li a,
+span.subscribe a {
   text-decoration: none;
+}
+
+nav ul li,
+nav ul li a {
+  color: black;
+  justify-content: center;
+}
+
+span.subscribe a {
   color: #0065fc;
+  font-weight: bold;
 }
 
 .main-article,
@@ -54,26 +69,37 @@ body {
   margin-right: 3em;
 }
 
+nav div,
+nav div ul li a {
+  height: 49px;
+  align-items: center;
+}
+
+nav div ul li a {
+  line-height: 49px;
+}
+
+nav div ul {
+  height: inherit;
+}
+
+nav ul li:hover {
+  border-top: 1px solid #0065fc;
+}
+
+nav ul li:hover a {
+  color: #0065fc;
+}
+
 nav,
 nav div {
   display: flex;
   justify-content: space-between;
 }
 
-nav ul li:hover,
-nav ul li:active {
-  border-top: 1px solid #0065fc;
-}
-
-/* nav {
-  margin-top: 3em;
-} */
-
-nav div ul li,
-nav div span {
-  padding: 2em 0 2em 2em;
-}
-
-nav span {
-  padding-left: 0;
+nav {
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
 }
