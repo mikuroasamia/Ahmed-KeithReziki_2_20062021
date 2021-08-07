@@ -54,6 +54,8 @@ body {
   margin-right: 3em;
 }
 
-/* nav {
-
-} */
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
