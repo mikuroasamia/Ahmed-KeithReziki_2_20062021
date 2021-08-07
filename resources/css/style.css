@@ -54,8 +54,26 @@ body {
   margin-right: 3em;
 }
 
-nav {
+nav,
+nav div {
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
+}
+
+nav ul li:hover,
+nav ul li:active {
+  border-top: 1px solid #0065fc;
+}
+
+/* nav {
+  margin-top: 3em;
+} */
+
+nav div ul li,
+nav div span {
+  padding: 2em 0 2em 2em;
+}
+
+nav span {
+  padding-left: 0;
 }
