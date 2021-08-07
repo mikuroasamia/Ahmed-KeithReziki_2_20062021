@@ -14,14 +14,6 @@ bleu claire #DEEBFF
 gris #F2F2F2
 */
 
-/* icones
-Tu peux intégrer les icônes Font Awesome en HTML ou CSS ?
-*/
-
-/* dossier de rendu
-pense a organiser ton dossier de rendu ?
-*/
-
 img {
   max-width: 400px;
   max-height: 400px;
@@ -35,6 +27,7 @@ ul {
 nav a {
   outline: none;
   text-decoration: none;
+  color: #0065fc;
 }
 
 .main-article,
