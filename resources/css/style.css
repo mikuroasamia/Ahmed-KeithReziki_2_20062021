@@ -1,61 +1,59 @@
-/* Normalize */
+/**
+*
+*
+  NORMALIZE
+ *
+ *
+ **/
+
+/**
+ 
+  COLOR SCHEME
+
+  bleu #0065FC
+  bleu claire #DEEBFF
+  gris #F2F2F2
+
+**/
+
+/* ALL DOCUMENT */
+
 *,
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  box-sizing: border-box;
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
 }
 
-/* 
-
-Testing Area
-
-*/
-nav {
-  /* border: 2px solid grey; */
+html {
+  box-sizing: border-box;
 }
-
-nav div {
-  /* border: 2px solid rgb(red); */
-}
-
-.nav-botton {
-  display: block;
-  height: 100px;
-  line-height: inherit;
-  align-items: center;
-}
-
-/* 
-
-Testing Area
-
-*/
 
 body {
   margin: auto;
   color: black;
 }
-/* color theme
-bleu #0065FC
-bleu claire #DEEBFF
-gris #F2F2F2
-*/
+
+/* IMAGES */
 
 img {
   max-width: 400px;
   max-height: 400px;
 }
 
+/*  UNORDERED LISTS */
+
 ul {
   list-style: none;
   display: flex;
 }
+
+/*  NAVIGATION */
 
 #navigation div a {
   text-decoration: none;
@@ -67,6 +65,8 @@ ul {
   color: #0065fc;
   font-weight: bold;
 }
+
+/* MAIN */
 
 .main-article,
 aside {
@@ -85,12 +85,46 @@ aside {
   color: #f2f2f2;
 }
 
-/* Large Screen*/
+/**
+*
+*
+  TESTING AREA - START
+*
+*
+**/
+
+.margin-left {
+  margin-left: auto;
+}
+
+.margin-right {
+  margin-right: 2em;
+}
+
+/**
+*
+*
+  TESTING AREA - END
+*
+*
+**/
+
+/**
+*
+*
+  LARGE SCREEN
+ *
+ *
+ **/
+
+/* BODY */
 
 body {
   margin-left: 3em;
   margin-right: 3em;
 }
+
+/* NAV */
 
 nav {
   padding: 0;
