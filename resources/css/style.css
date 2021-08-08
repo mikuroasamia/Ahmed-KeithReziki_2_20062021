@@ -11,6 +11,7 @@
 
 body {
   margin: auto;
+  color: black;
 }
 /* color theme
 bleu #0065FC
@@ -28,16 +29,10 @@ ul {
   display: flex;
 }
 
-nav ul li,
-nav ul li a,
-span.subscribe a {
+nav > div a {
   text-decoration: none;
-}
-
-nav ul li,
-nav ul li a {
-  color: black;
   justify-content: center;
+  align-items: center;
 }
 
 span.subscribe a {
@@ -69,17 +64,7 @@ body {
   margin-right: 3em;
 }
 
-nav div,
-nav div ul li a {
-  height: 49px;
-  align-items: center;
-}
-
-nav div ul {
-  height: inherit;
-}
-
-nav ul li:hover {
+nav div div:hover a {
   border-top: 1px solid #0065fc;
 }
 
