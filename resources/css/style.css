@@ -97,9 +97,18 @@ nav div {
   justify-content: space-between;
 }
 
-nav {
+nav,
+nav span,
+nav div,
+nav span a,
+nav div ul,
+nav div ul li,
+nav div ul li a {
   height: 100px;
+  align-items: center;
+}
+
+nav {
   padding: 0;
   margin: 0;
-  align-items: center;
 }
