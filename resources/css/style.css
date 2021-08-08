@@ -1,5 +1,7 @@
 /* Normalize */
-* {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
@@ -8,6 +10,32 @@
   padding: 0;
   font-family: "Raleway", sans-serif;
 }
+
+/* 
+
+Testing Area
+
+*/
+nav {
+  /* border: 2px solid grey; */
+}
+
+nav div {
+  /* border: 2px solid rgb(red); */
+}
+
+.nav-botton {
+  display: block;
+  height: 100px;
+  line-height: inherit;
+  align-items: center;
+}
+
+/* 
+
+Testing Area
+
+*/
 
 body {
   margin: auto;
@@ -29,13 +57,13 @@ ul {
   display: flex;
 }
 
-nav > div a {
+#navigation div a {
   text-decoration: none;
   justify-content: center;
   align-items: center;
 }
 
-span.subscribe a {
+.subscribe a {
   color: #0065fc;
   font-weight: bold;
 }
@@ -64,27 +92,27 @@ body {
   margin-right: 3em;
 }
 
-nav div div:hover a {
-  border-top: 1px solid #0065fc;
-}
-
-nav ul li:hover a {
-  color: #0065fc;
-}
-
-nav,
-nav div {
-  display: flex;
-  justify-content: space-between;
-}
-
-nav,
-#navigation > * {
-  height: 100px;
-  align-items: center;
-}
-
 nav {
   padding: 0;
   margin: 0;
+}
+
+nav,
+nav span,
+#navigation > * {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav span {
+  justify-content: flex-end;
+}
+
+#navigation .accommodations:hover,
+#navigation .activities:hover {
+  border-top: 1px solid #0065fc;
+  color: #0065fc;
 }
