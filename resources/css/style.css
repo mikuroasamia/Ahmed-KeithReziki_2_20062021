@@ -98,7 +98,7 @@ aside {
 }
 
 .margin-right {
-  margin-right: 2em;
+  margin-right: 3em;
 }
 
 /**
@@ -124,7 +124,7 @@ body {
   margin-right: 3em;
 }
 
-/* NAV */
+/* NAVIGATION */
 
 nav {
   padding: 0;
@@ -132,7 +132,6 @@ nav {
 }
 
 nav,
-nav span,
 #navigation > * {
   height: 100px;
   display: flex;
@@ -141,12 +140,14 @@ nav span,
   align-items: center;
 }
 
-nav span {
-  justify-content: flex-end;
-}
-
 #navigation .accommodations:hover,
 #navigation .activities:hover {
   border-top: 1px solid #0065fc;
+}
+
+#navigation .accommodations:hover a,
+#navigation .activities:hover a {
   color: #0065fc;
 }
+
+/* HEADER */
