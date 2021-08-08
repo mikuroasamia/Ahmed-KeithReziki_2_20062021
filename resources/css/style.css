@@ -75,10 +75,6 @@ nav div ul li a {
   align-items: center;
 }
 
-nav div ul li a {
-  line-height: 49px;
-}
-
 nav div ul {
   height: inherit;
 }
@@ -98,12 +94,7 @@ nav div {
 }
 
 nav,
-nav span,
-nav div,
-nav span a,
-nav div ul,
-nav div ul li,
-nav div ul li a {
+#navigation > * {
   height: 100px;
   align-items: center;
 }
