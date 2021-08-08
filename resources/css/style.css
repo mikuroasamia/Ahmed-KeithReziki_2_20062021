@@ -37,6 +37,8 @@ html {
 body {
   margin: auto;
   color: black;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 
 /* IMAGES */
@@ -51,6 +53,11 @@ img {
 ul {
   list-style: none;
   display: flex;
+}
+
+a,
+a:visited {
+  color: black;
 }
 
 /*  NAVIGATION */
@@ -132,7 +139,9 @@ nav {
 }
 
 nav,
-#navigation > * {
+#navigation * {
+  min-width: 162px;
+  width: auto;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -140,14 +149,20 @@ nav,
   align-items: center;
 }
 
-#navigation .accommodations:hover,
-#navigation .activities:hover {
+.accommodations:hover,
+.activities:hover {
   border-top: 1px solid #0065fc;
 }
 
-#navigation .accommodations:hover a,
-#navigation .activities:hover a {
+#nav-btns-wrapper .accommodations:hover a,
+#nav-btns-wrapper .activities:hover a {
   color: #0065fc;
+}
+
+.accommodations a:visited,
+.activities a:visited {
+  color: black;
+  font-weight: bold;
 }
 
 /* HEADER */
