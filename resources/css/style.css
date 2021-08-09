@@ -16,6 +16,23 @@
 
 **/
 
+/**
+*
+*
+  FONTS
+*
+*
+**/
+
+/* RALEWAY */
+
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf")
+    format("ttf");
+  src: url("../fonts/Raleway/Raleway-VariableFont_wght.ttf") format("ttf");
+}
+
 /* ALL DOCUMENT */
 
 *,
