@@ -177,7 +177,7 @@ nav,
 
 .fa-map-marker-alt::before {
   width: 40px;
-  padding: 6px;
+  padding: 6px 3px 6px 6px;
   font-size: 1.4em;
 }
 
@@ -191,6 +191,11 @@ nav,
 #form * {
   min-width: auto;
   height: 40px;
+}
+
+/* Form Input */
+#form input {
+  border: 1px solid #f2f2f2;
 }
 
 /* Search Bar */
