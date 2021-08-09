@@ -176,4 +176,51 @@ nav,
 
 /* HEADER */
 
+/* Icones */
+/* #form i,
+#searchbar-container button i {
+  min-width: 30px;
+  min-height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+#form i::before,
+#searchbar-container button i::before {
+  display: inline-block;
+  width: 100%;
+} */
+
+.fa-map-marker-alt,
+.fa-map-marker-alt::before {
+  display: block;
+  width: 30px;
+  height: auto;
+  color: #0065fc;
+}
+
+/* .fa-map-marker-alt::before {
+  
+} */
+
+/* Form */
+#form,
+#form * {
+  min-width: auto;
+  height: 30px;
+}
+
 /* Search Bar */
+#searchbar-container button {
+  min-width: auto;
+  min-height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+header i {
+  min-width: 30px;
+  min-height: 30px;
+  background-color: #deebff;
+  border-radius: 50%;
+}
