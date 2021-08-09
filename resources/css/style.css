@@ -24,13 +24,6 @@
 *
 **/
 
-/* RALEWAY */
-
-@font-face {
-  font-family: "Raleway", sans-serif;
-  src: url("fonts/Raleway/static/Raleway-Black.ttf") format("ttf");
-}
-
 /* ALL DOCUMENT */
 
 *,
@@ -49,11 +42,9 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  margin: auto;
+body * {
   color: black;
-  font-weight: 500;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 /* IMAGES */
