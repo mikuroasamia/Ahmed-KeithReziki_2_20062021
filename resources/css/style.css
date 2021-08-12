@@ -54,10 +54,6 @@ img {
   max-width: 400px;
 }
 
-img#logo {
-  max-height: 50%;
-}
-
 /*  UNORDERED LISTS */
 
 ul {
@@ -156,13 +152,15 @@ nav {
 
 nav,
 #navigation * {
-  min-width: 162px;
-  width: auto;
-  height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+}
+
+#navigation * {
+  max-width: 162px; /* HERE YOU GO */
+  width: auto;
+  height: 100px;
 }
 
 .accommodations:hover,
@@ -174,6 +172,30 @@ nav,
 #nav-btns-wrapper .activities:hover a {
   color: #0065fc;
   font-weight: 500;
+}
+
+/* #logo-container {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 0;
+} */
+
+#subscribe-button-container {
+  /* display: flex; */
+  align-items: right;
+  margin-right: 0;
+}
+
+#nav-btns-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* IMAGES */
+
+img#logo {
+  width: 120px;
+  max-height: 50%;
 }
 
 /**
