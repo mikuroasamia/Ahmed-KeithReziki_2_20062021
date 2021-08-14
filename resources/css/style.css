@@ -103,22 +103,6 @@ aside {
 /**
 *
 *
-  TESTING AREA - START
-*
-*
-**/
-
-/**
-*
-*
-  TESTING AREA - END
-*
-*
-**/
-
-/**
-*
-*
   LARGE SCREEN
  *
  *
@@ -158,7 +142,6 @@ nav,
 }
 
 #navigation * {
-  max-width: 162px; /* HERE YOU GO */
   width: auto;
   height: 100px;
 }
@@ -174,16 +157,20 @@ nav,
   font-weight: 500;
 }
 
-/* #logo-container {
-  display: flex;
-  align-self: flex-start;
-  margin-left: 0;
-} */
+.accommodations,
+.activities {
+  margin-right: 1.5em;
+}
+
+.activities {
+  margin-left: 1.5em;
+}
 
 #subscribe-button-container {
   /* display: flex; */
   align-items: right;
   margin-right: 0;
+  margin-left: 1.5em;
 }
 
 #nav-btns-container {
@@ -196,6 +183,8 @@ nav,
 img#logo {
   width: 120px;
   max-height: 50%;
+  align-self: left;
+  margin-left: -8px;
 }
 
 /**
@@ -221,21 +210,33 @@ img#logo {
 
 .fa-map-marker-alt::before {
   width: 55px;
-  padding: 12px 12px;
+  padding: 14px 18px;
   font-size: 1.2em;
 }
 
-/* Form */
+/**
+*
+* 
+  HEADER - FORM
+*
+*
+**/
+
+/* FORM */
 #form {
   width: 100%;
   display: flex;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 #form,
 #form * {
   min-width: auto;
+}
+
+#form * {
   height: 55px;
+  margin: 0;
 }
 
 /* Form Input */
@@ -265,18 +266,21 @@ img#logo {
   padding-left: 20px;
 }
 
-#search-input {
-  width: 150px;
-  background-color: #0065fc;
-  border-top-right-radius: 10%;
-  border-bottom-right-radius: 10%;
+#search-input,
+#searchbar-container button {
   border: none;
 }
 
-#search-input[value="Rechercher"] {
+#search-input {
+  display: flex;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  background-color: #0065fc;
   color: white;
   font-size: 1.2em;
   font-weight: 500;
+  border-radius: 0 12px 12px 0;
 }
 
 /* Search Bar */
@@ -285,4 +289,33 @@ img#logo {
   min-height: 55px;
   align-items: center;
   justify-content: center;
+}
+
+/**
+*
+*
+  HEADER - ARTICLE
+*
+*
+**/
+
+/* HEADER ARTICLE - SEARCH BAR */
+.header-article-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-article-container h4 {
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+
+#searchbar-container * {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
 }
