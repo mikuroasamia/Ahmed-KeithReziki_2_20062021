@@ -471,8 +471,104 @@ main aside {
 *
 *
 **/
+
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
+  /* BODY */
+  html,
+  body,
+  nav,
+  header {
+    width: 414px;
+    padding: 10px;
+  }
+
+  /* NAV */
+  nav {
+    height: 200px;
+    padding: 0 5px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 2em;
+  }
+
+  nav > * {
+    max-width: 50%;
+  }
+
+  /* nav * {
+    flex: 1;
+  } */
+
+  #logo-container {
+    max-width: 50%;
+    height: 40px;
+    order: 0;
+  }
+
+  img#logo {
+    height: 40px;
+    margin-bottom: 0;
+  }
+
+  #nav-btns-container * {
+    width: 100%;
+  }
+
+  #nav-btns-container {
+    width: 50%;
+    /* height: 100%; */
+    display: flex;
+    /* order: 0; */
+  }
+
+  #nav-btns-wrapper {
+    width: 100%;
+    /* order: 1; */
+  }
+
+  /* #subscribe-button-container {
+    order: 0;
+  } */
+
+  /* #navigation * {
+  }
+
+  .accommodations a,
+  .activities a {
+  } */
+
+  .accommodations:hover,
+  .activities:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: hidden;
+  }
+
+  #nav-btns-wrapper .accommodations:hover a,
+  #nav-btns-wrapper .activities:hover a {
+    color: #0065fc;
+    font-weight: 500;
+  }
+
+  .accommodations,
+  .activities {
+    /* margin-right: 0.5em; */
+  }
+
+  .activities {
+    /* margin-left: 0.5em; */
+  }
 }
+
+/**
+*
+*
+                          *********************
+                              TABLET - SMALL
+                          *********************
+*
+*
+**/
 
 @media screen and (max-device-width: 640px) and (orientation: landscape) {
 }
