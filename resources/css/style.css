@@ -414,9 +414,48 @@ main {
 
 main article {
   padding: 2.5em;
+  max-width: 80%;
 }
 
 main article,
 main aside {
+  border-radius: 20px;
+}
+
+/**
+*
+*
+  MAIN - CARDS
+*
+*
+**/
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-container img {
+  width: 270px;
+  height: 170px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.card-type-1 {
+  background-color: #fff;
+  max-width: 270px;
+  margin: 20px;
+}
+
+.card-type-1 h4,
+.card-type-1 p,
+.card-type-1 ul {
+  padding: 3px 15px;
+}
+
+.card-container img,
+.card-type-1 {
   border-radius: 20px;
 }
