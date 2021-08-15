@@ -130,7 +130,7 @@ body {
 **/
 
 nav {
-  padding: 0;
+  padding: 0 10px;
   margin: 0;
 }
 
@@ -146,9 +146,14 @@ nav,
   height: 100px;
 }
 
+.accommodations a,
+.activities a {
+  font-weight: 500;
+}
+
 .accommodations:hover,
 .activities:hover {
-  border-top: 1px solid #0065fc;
+  border-top: 2px solid #0065fc;
 }
 
 #nav-btns-wrapper .accommodations:hover a,
@@ -181,8 +186,8 @@ nav,
 /* IMAGES */
 
 img#logo {
-  width: 120px;
-  max-height: 50%;
+  width: 100px;
+  max-height: 45%;
   align-self: left;
   margin-left: -8px;
 }
@@ -194,6 +199,10 @@ img#logo {
 *
 *
 **/
+
+header {
+  padding: 0 10px;
+}
 
 /**
 *
@@ -258,7 +267,7 @@ img#logo {
 #marseille-placeholder::placeholder {
   width: 250px;
   color: #000000;
-  font-size: 1.4em;
+  font-size: 1.5em;
   font-weight: bold;
   margin: auto;
   padding-left: 15px;
@@ -309,6 +318,8 @@ img#logo {
 .header-article-container h4 {
   margin-left: 0;
   margin-right: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 #h4-filter {
@@ -354,6 +365,10 @@ img#logo {
   padding-right: 10px;
 }
 
+.header-article-container {
+  padding: 0 0 0 12px;
+}
+
 /* HEADER ARTICLE - INFO */
 article.info {
   display: flex;
@@ -362,13 +377,14 @@ article.info {
   height: 50px;
   margin-top: 1em;
   margin-bottom: 1em;
+  padding: 0 0 0 5px;
 }
 
 article.info i {
   color: #0065fc;
   width: 30px;
   height: 30px;
-  font-size: 1em;
+  font-size: 0.7em;
   border: 1px solid #f2f2f2;
   border-radius: 100%;
   margin-right: 1em;
@@ -377,7 +393,7 @@ article.info i {
 article.info i::before {
   display: flex;
   justify-content: space-around;
-  padding-top: 20%;
+  padding-top: 30%;
 }
 
 article.info p {
@@ -391,3 +407,16 @@ article.info p {
 *
 *
 **/
+
+main {
+  margin-top: 2em;
+}
+
+main article {
+  padding: 2.5em;
+}
+
+main article,
+main aside {
+  border-radius: 20px;
+}
