@@ -132,7 +132,7 @@ body {
 **/
 
 nav {
-  padding: 0 10px;
+  padding: 0 10px 0 7px;
   margin: 0;
 }
 
@@ -148,28 +148,28 @@ nav,
   height: 100px;
 }
 
-.accommodations a,
-.activities a {
+.nav-accommodations a,
+.nav-activities a {
   font-weight: 500;
 }
 
-.accommodations:hover,
-.activities:hover {
+.nav-accommodations:hover,
+.nav-activities:hover {
   border-top: 2px solid #0065fc;
 }
 
-#nav-btns-wrapper .accommodations:hover a,
-#nav-btns-wrapper .activities:hover a {
+#nav-btns-wrapper .nav-accommodations:hover a,
+#nav-btns-wrapper .nav-activities:hover a {
   color: #0065fc;
   font-weight: 500;
 }
 
-.accommodations,
-.activities {
+.nav-accommodations,
+.nav-activities {
   margin-right: 1.5em;
 }
 
-.activities {
+.nav-activities {
   margin-left: 1.5em;
 }
 
@@ -183,6 +183,8 @@ nav,
 #nav-btns-container {
   display: flex;
   align-items: flex-end;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 /* IMAGES */
@@ -191,7 +193,6 @@ img#logo {
   width: 100px;
   max-height: 45%;
   align-self: left;
-  margin-left: -8px;
 }
 
 /**
@@ -510,21 +511,19 @@ aside {
 
   /* NAV */
   nav {
+    max-width: 480px;
     height: 200px;
     padding: 0 5px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px 2em;
+    flex-direction: column;
+    order: 0;
   }
 
   nav > * {
     max-width: 50%;
   }
-
-  /* nav * {
-    flex: 1;
-  } */
 
   #logo-container {
     max-width: 50%;
@@ -543,48 +542,29 @@ aside {
 
   #nav-btns-container {
     width: 50%;
-    /* height: 100%; */
+    height: 100%;
     display: flex;
-    /* order: 0; */
+    order: 0;
   }
 
   #nav-btns-wrapper {
-    width: 100%;
-    /* order: 1; */
+    width: 200px;
+    order: 1;
+
   }
 
-  /* #subscribe-button-container {
-    order: 0;
-  } */
-
-  /* #navigation * {
-  }
-
-  .accommodations a,
-  .activities a {
-  } */
-
-  .accommodations:hover,
-  .activities:hover {
+  .nav-accommodations:hover,
+  .nav-activities:hover {
     border-bottom: 2px solid #0065fc;
     border-top: hidden;
   }
 
-  #nav-btns-wrapper .accommodations:hover a,
-  #nav-btns-wrapper .activities:hover a {
+  #nav-btns-wrapper .nav-accommodations:hover a,
+  #nav-btns-wrapper .nav-activities:hover a {
     color: #0065fc;
     font-weight: 500;
   }
 
-  .accommodations,
-  .activities {
-    /* margin-right: 0.5em; */
-  }
-
-  .activities {
-    /* margin-left: 0.5em; */
-  }
-}
 
 /**
 *
