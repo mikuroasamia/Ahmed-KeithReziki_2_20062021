@@ -552,7 +552,7 @@ aside {
     margin-left: auto;
     margin-right: auto;
   }
-
+}
 
 /**
 *
@@ -563,6 +563,5 @@ aside {
 *
 *
 **/
-/* 
-@media screen and (max-device-width: 640px) and (orientation: landscape) {
+/* @media screen and (max-device-width: 640px) and (orientation: landscape) {
 } */
