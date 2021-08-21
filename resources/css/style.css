@@ -546,14 +546,19 @@ aside {
 /**
 *
 *
-    MAX-WIDTH 1200px
+    MIN-WIDTH 860px
 *
 *
 **/
-@media screen and (min-device-width: 1200px) {
+@media screen and (min-device-width: 860px) {
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
   body {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin: 0;
+    padding: 0 3rem;
   }
 
   /**
@@ -564,35 +569,41 @@ aside {
   *
   **/
 
-  nav {
-    padding: 0 10px 0 7px;
-    margin: 0;
-  }
-
   nav,
   #nav-container * {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: nowrap;
   }
 
-  #nav-container * {
-    width: auto;
-    height: 100px;
+  .nav-logo,
+  .nav-subscribe,
+  .nav-buttons {
+    min-width: 33%;
   }
 
-  .nav-accommodations {
-    margin-left: auto;
+  .nav-logo {
+    padding-left: 0.5rem;
   }
 
-  .nav-accommodations a,
-  .nav-activities a {
-    font-weight: 500;
+  .nav-buttons {
+    margin-right: 1.5rem;
+  }
+
+  .nav-accommodations,
+  .nav-activities {
+    width: fit-content;
+    border-bottom: none;
+    order: 0;
   }
 
   .nav-accommodations:hover,
   .nav-activities:hover {
     border-top: 2px solid #0065fc;
+    border-bottom: none;
+  }
+
+  .nav-accommodations a,
+  .nav-activities a {
+    font-weight: 500;
   }
 
   .nav-accommodations:hover a,
@@ -601,26 +612,16 @@ aside {
     font-weight: 500;
   }
 
-  .nav-accommodations,
-  .nav-activities {
-    margin-right: 1.5rem;
-  }
-
-  .nav-activities {
-    margin-left: 1.5rem;
-  }
-
   .nav-subscribe {
-    align-items: right;
-    margin-right: 0;
-    margin-left: 1.5rem;
+    order: 1;
+    /* margin-left: 1rem; */
+    justify-self: flex-end;
   }
 
   /* IMAGES */
 
   img#logo {
-    width: 100px;
-    max-height: 45%;
+    /* max-height: 45%; */
     align-self: left;
   }
 
