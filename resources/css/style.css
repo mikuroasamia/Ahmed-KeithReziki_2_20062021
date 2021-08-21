@@ -69,11 +69,11 @@ a:visited {
 
 /*  NAVIGATION */
 
-#navigation div a {
+#nav-container div a {
   text-decoration: none;
 }
 
-.subscribe a {
+.nav-subscribe a {
   color: #0065fc;
   font-weight: bold;
 }
@@ -115,33 +115,66 @@ aside {
 *
 **/
 
+/* HTML */
+
+html {
+  font-size: 16px;
+}
+
 /* BODY */
+body,
+nav,
+header,
+main,
+footer,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 auto;
+  padding: 0;
+}
+
 body,
 nav,
 header,
 main,
 footer {
   max-width: 100vh;
-  margin: 0;
-  padding: 0;
 }
 
 nav,
 nav div {
   display: flex;
-  width: 100%;
   align-items: center;
 }
 
 /* NAV */
 nav {
-  display: flex;
-  align-items: center;
+  min-width: 90vw;
+  flex-direction: row;
   flex-wrap: wrap;
+  font-size: 1.2rem;
 }
 
-.subscribe {
-  justify-content: flex-end;
+nav div {
+  width: 100%;
+}
+
+.nav-logo {
+  width: auto;
+  padding-left: 1rem;
+}
+
+.nav-subscribe {
+  width: auto;
+  justify-self: flex-end;
+  padding-right: 1rem;
+}
+
+.nav-subscribe,
+.nav-accommodations {
+  margin-left: auto;
 }
 
 .nav-accommodations,
@@ -162,14 +195,6 @@ nav {
   font-weight: 500;
 }
 
-.button-container-A {
-  padding: 2em 1em;
-}
-
-.button-container-B {
-  font-size: 0.9rem;
-}
-
 /**
   *
   *
@@ -179,7 +204,12 @@ nav {
   **/
 
 header {
-  padding: 2em 1em;
+  padding: 2rem 1rem;
+}
+
+header h2,
+header p {
+  margin: 1rem 0;
 }
 
 /**
@@ -222,7 +252,7 @@ header {
 
 .fa-map-marker-alt::before {
   width: 20px;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 /* Form Input */
@@ -233,7 +263,7 @@ header {
 
 #marseille-placeholder {
   display: flex;
-  width: 250px;
+  width: 130px;
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
   border-left: none;
@@ -243,38 +273,30 @@ header {
 }
 
 #marseille-placeholder::placeholder {
-  width: 250px;
   color: #000000;
-  font-size: 1.5em;
+  font-size: 0.8rem;
   font-weight: bold;
   margin: auto;
-  padding-left: 15px;
+  padding-left: 10%;
 }
 
 #search-input,
-#searchbar-container button {
+.header-filter-container button {
   border: none;
   padding: 0;
 }
 
 #search-input {
   display: flex;
-  width: 150px;
+  max-width: 30%;
+  padding: 0 20%;
   align-items: center;
   justify-content: center;
   background-color: #0065fc;
   color: white;
-  font-size: 1.2em;
+  font-size: 0.8rem;
   font-weight: 500;
   border-radius: 0 12px 12px 0;
-}
-
-/* Search Bar */
-#searchbar-container button {
-  min-width: auto;
-  min-height: 45px;
-  align-items: center;
-  justify-content: center;
 }
 
 /**
@@ -286,65 +308,60 @@ header {
   **/
 
 /* HEADER ARTICLE - SEARCH BAR */
-.header-article-container {
+
+/* FILTERS */
+.header-filter-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
   text-align: center;
+  flex-wrap: wrap;
+  padding: 0 0 0 12px;
+  margin-top: 1rem;
 }
 
-.header-article-container h4 {
+.header-filter-container h4 {
   margin-left: 0;
-  margin-right: 1em;
-  font-size: 1.2em;
+  margin-right: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
-#h4-filter {
-  padding-top: 18px;
-}
-
-#searchbar-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 1em;
-}
-
-#searchbar-container button {
-  display: flex;
-  padding: 0;
-  font-size: 16px;
+.header-filter-container button {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 100px;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-#searchbar-container button i {
+.header-filter-container button i {
   color: #0065fc;
-  font-size: 1.2em;
-  width: 50px;
-  height: 50px;
+  font-size: 0.8rem;
   background-color: #deebff;
   border-radius: 100%;
-  padding: 0;
 }
 
-#searchbar-container button i::before {
+.header-filter-container button,
+.header-filter-container button i {
+  min-width: 2rem;
+  min-height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+.header-filter-container button i::before {
   display: flex;
   justify-content: space-around;
-  padding-top: 30%;
+  padding-top: 15%;
 }
 
-#searchbar-container span {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.header-article-container {
-  padding: 0 0 0 12px;
+.header-filter-container span {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 /* HEADER ARTICLE - INFO */
@@ -353,8 +370,8 @@ article.info {
   align-items: center;
   justify-content: flex-start;
   height: 50px;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 0 0 0 5px;
 }
 
@@ -362,10 +379,10 @@ article.info i {
   color: #0065fc;
   width: 30px;
   height: 30px;
-  font-size: 0.7em;
+  font-size: 0.7rem;
   border: 1px solid #f2f2f2;
   border-radius: 100%;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 
 article.info i::before {
@@ -387,7 +404,7 @@ article.info p {
   **/
 
 main {
-  margin-top: 2em;
+  margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -395,7 +412,7 @@ main {
 }
 
 main article {
-  padding: 2.5em;
+  padding: 2.5rem;
 }
 
 main article,
@@ -533,10 +550,10 @@ aside {
 *
 *
 **/
-@media screen and (min-device-width: 1200px) and (orientation: portrait) {
+@media screen and (min-device-width: 1200px) {
   body {
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   /**
@@ -553,13 +570,13 @@ aside {
   }
 
   nav,
-  #navigation * {
+  #nav-container * {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  #navigation * {
+  #nav-container * {
     width: auto;
     height: 100px;
   }
@@ -586,17 +603,17 @@ aside {
 
   .nav-accommodations,
   .nav-activities {
-    margin-right: 1.5em;
+    margin-right: 1.5rem;
   }
 
   .nav-activities {
-    margin-left: 1.5em;
+    margin-left: 1.5rem;
   }
 
-  #nav-subscribe {
+  .nav-subscribe {
     align-items: right;
     margin-right: 0;
-    margin-left: 1.5em;
+    margin-left: 1.5rem;
   }
 
   /* IMAGES */
@@ -659,7 +676,7 @@ aside {
 
   .fa-map-marker-alt::before {
     width: 20px;
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   /* Form Input */
@@ -682,14 +699,14 @@ aside {
   #marseille-placeholder::placeholder {
     width: 250px;
     color: #000000;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: auto;
     padding-left: 15px;
   }
 
   #search-input,
-  #searchbar-container button {
+  .header-filter-container button {
     border: none;
     padding: 0;
   }
@@ -701,39 +718,31 @@ aside {
     justify-content: center;
     background-color: #0065fc;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 500;
     border-radius: 0 12px 12px 0;
-  }
-
-  /* Search Bar */
-  #searchbar-container button {
-    min-width: auto;
-    min-height: 45px;
-    align-items: center;
-    justify-content: center;
   }
 
   /**
   *
   *
-    HEADER - ARTICLE
+    HEADER
   *
   *
   **/
 
-  /* HEADER ARTICLE - SEARCH BAR */
-  .header-article-container {
+  /* HEADER - SEARCH BAR & FILTERS */
+  .header-filter-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
   }
 
-  .header-article-container h4 {
+  .header-filter-container h4 {
     margin-left: 0;
-    margin-right: 1em;
-    font-size: 1.2em;
+    margin-right: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
   }
 
@@ -741,27 +750,28 @@ aside {
     padding-top: 18px;
   }
 
-  #searchbar-container {
+  .header-filter-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 1em;
+    max-width: 50%;
+    color: red;
+    flex-wrap: wrap;
+    margin-top: 1rem;
   }
 
-  #searchbar-container button {
+  .header-filter-container button {
     display: flex;
     padding: 0;
     font-size: 16px;
     background-color: #fff;
     border: 2px solid #f2f2f2;
     border-radius: 100px;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
-  #searchbar-container button i {
+  .header-filter-container button i {
     color: #0065fc;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     width: 50px;
     height: 50px;
     background-color: #deebff;
@@ -769,18 +779,18 @@ aside {
     padding: 0;
   }
 
-  #searchbar-container button i::before {
+  .header-filter-container button i::before {
     display: flex;
     justify-content: space-around;
     padding-top: 30%;
   }
 
-  #searchbar-container span {
+  .header-filter-container span {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .header-article-container {
+  .header-filter-container {
     padding: 0 0 0 12px;
   }
 
@@ -790,8 +800,8 @@ aside {
     align-items: center;
     justify-content: flex-start;
     height: 50px;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 0 0 0 5px;
   }
 
@@ -799,10 +809,10 @@ aside {
     color: #0065fc;
     width: 30px;
     height: 30px;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     border: 1px solid #f2f2f2;
     border-radius: 100%;
-    margin-right: 1em;
+    margin-right: 1rem;
   }
 
   article.info i::before {
@@ -824,7 +834,7 @@ aside {
   **/
 
   main {
-    margin-top: 2em;
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -832,7 +842,7 @@ aside {
   }
 
   main article {
-    padding: 2.5em;
+    padding: 2.5rem;
   }
 
   main article,

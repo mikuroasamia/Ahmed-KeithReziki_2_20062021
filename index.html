@@ -36,38 +36,31 @@
 
     <!-- NAVIGATION START -->
 
-    <nav id="navigation">
+    <nav id="nav-container">
 
-        <div class="button-container-A">
             <!-- LOGO -->            
-            <div id="logo-container">
+            <div class="nav-logo">
                 <a href="#">
                     <img id="logo" src="resources/images/logo/Reservia.svg" alt="Logo de la compagnie Reservia">
                 </a>
             </div>
 
             <!-- SUBSCRIPTION BUTTON -->
-            <div id="nav-subscribe" class="subscribe">
+            <div class="nav-subscribe">
                 <a href="#">S'inscrire</a>
             </div>
-        </div>
-            
-        
-        <div class="button-container-B">
-            <!-- ACCOMODATIONS -->
-            <div class="nav-accommodations">
-                <a class="nav-button" href="#accommodations">Hébergements</a>
-            </div>
 
-            <!-- ACTIVITIES -->
-            <div class="nav-activities">
-                <a class="nav-button" href="#activities">Activités</a>
-            </div>
-        </div>
-            
-            
+            <div class="nav-buttons">
+                <!-- ACCOMODATIONS -->
+                <div class="nav-accommodations">
+                    <a class="nav-button" href="#accommodations">Hébergements</a>
+                </div>
 
-        
+                <!-- ACTIVITIES -->
+                <div class="nav-activities">
+                    <a class="nav-button" href="#activities">Activités</a>
+                </div>
+            </div>
 
     </nav>
 
@@ -89,35 +82,32 @@
         </form>
 
         <!-- HEADER ARTICLE - SEARCH BAR - START -->
-        <article class="header-article-container">
+        <div class="header-filter-container">
 
             <!-- HEADER ARTICLE - TITLE -->
-            <h4 id="h4-filter">Filtres</h4>
+            <h4>Filtres</h4>
 
-            <!-- CONTAINER FOR SEARCH BAR -->
-            <div id="searchbar-container" class="btns-filters">
-                <button class="btn-filter">
-                    <i class="fas fa-money-bill-wave fa-1x" aria-hidden="true"></i>
-                    <span><h4>Économique</h4></span>
-                </button>
+            <button class="btn-filter">
+                <i class="fas fa-money-bill-wave fa-1x" aria-hidden="true"></i>
+                <span><h4>Économique</h4></span>
+            </button>
 
-                <button class="btn-filter">
-                    <i class="fas fa-child"></i>
-                    <span><h4>Familial</h4></span>
-                </button>
+            <button class="btn-filter">
+                <i class="fas fa-child"></i>
+                <span><h4>Familial</h4></span>
+            </button>
 
-                <button class="btn-filter">
-                    <i class="fas fa-heart"></i>
-                    <span><h4>Romantique</h4></span>
-                </button>
+            <button class="btn-filter">
+                <i class="fas fa-heart"></i>
+                <span><h4>Romantique</h4></span>
+            </button>
 
-                <button class="btn-filter">
-                    <i class="fas fa-dog"></i>
-                    <span><h4>Animaux autorisés</h4></span>
-                </button>
-            </div>
+            <button class="btn-filter">
+                <i class="fas fa-dog"></i>
+                <span><h4>Animaux autorisés</h4></span>
+            </button>
 
-        </article>
+        </div>
         <!-- HEADER ARTICLE - SEARCH BAR - END -->
 
         <!-- HEADER ARTICLE - INFO - START -->
