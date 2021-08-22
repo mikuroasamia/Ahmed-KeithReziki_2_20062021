@@ -557,8 +557,16 @@ aside {
   }
 
   body {
+    width: 100vw;
     margin: 0;
     padding: 0 3rem;
+  }
+
+  nav,
+  header,
+  main,
+  footer {
+    min-width: 90vw;
   }
 
   /**
@@ -577,7 +585,7 @@ aside {
   .nav-logo,
   .nav-subscribe,
   .nav-buttons {
-    min-width: 33%;
+    max-width: 33%;
   }
 
   .nav-logo {
@@ -586,6 +594,7 @@ aside {
 
   .nav-buttons {
     margin-right: 1.5rem;
+    margin-left: auto;
   }
 
   .nav-accommodations,
@@ -613,15 +622,15 @@ aside {
   }
 
   .nav-subscribe {
+    margin-left: 0;
     order: 1;
-    /* margin-left: 1rem; */
-    justify-self: flex-end;
+    /* justify-self: flex-end; */
   }
 
   /* IMAGES */
 
   img#logo {
-    /* max-height: 45%; */
+    padding-left: 1rem;
     align-self: left;
   }
 
@@ -632,9 +641,16 @@ aside {
   *
   *
   **/
-
   header {
-    padding: 0 10px;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header h2,
+  header p {
+    margin: 0.5rem;
   }
 
   /**
@@ -658,7 +674,7 @@ aside {
   }
 
   #form * {
-    height: 45px;
+    /* height: 45px; */
     margin: 0;
   }
 
@@ -700,7 +716,7 @@ aside {
   #marseille-placeholder::placeholder {
     width: 250px;
     color: #000000;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin: auto;
     padding-left: 15px;
@@ -734,10 +750,17 @@ aside {
 
   /* HEADER - SEARCH BAR & FILTERS */
   .header-filter-container {
+    min-width: 100%;
+    padding: 0;
+    margin-top: 1rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    text-align: center;
+  }
+
+  #h4-filter {
+    padding-top: 18px;
   }
 
   .header-filter-container h4 {
@@ -747,27 +770,14 @@ aside {
     font-weight: bold;
   }
 
-  #h4-filter {
-    padding-top: 18px;
-  }
-
-  .header-filter-container {
-    display: flex;
-    max-width: 50%;
-    color: red;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-  }
-
   .header-filter-container button {
     display: flex;
     padding: 0;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #fff;
     border: 2px solid #f2f2f2;
     border-radius: 100px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 0.5rem 1rem;
   }
 
   .header-filter-container button i {
@@ -781,9 +791,8 @@ aside {
   }
 
   .header-filter-container button i::before {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 30%;
+    align-items: center;
+    padding: 0;
   }
 
   .header-filter-container span {
