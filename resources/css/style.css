@@ -287,16 +287,19 @@ header p {
 }
 
 #search-input {
-  display: flex;
-  max-width: 30%;
-  padding: 0 20%;
-  align-items: center;
-  justify-content: center;
+  padding: 0 1rem;
   background-color: #0065fc;
-  color: white;
-  font-size: 0.8rem;
-  font-weight: 500;
   border-radius: 0 12px 12px 0;
+}
+
+.research-icon i {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.research-word {
+  display: none;
 }
 
 /**
@@ -719,7 +722,7 @@ aside {
     font-size: 1.4rem;
     font-weight: bold;
     margin: auto;
-    padding-left: 15px;
+    padding: 15px 15px 0 15px;
   }
 
   #search-input,
@@ -729,15 +732,20 @@ aside {
   }
 
   #search-input {
-    display: flex;
     width: 150px;
-    align-items: center;
-    justify-content: center;
     background-color: #0065fc;
+    border-radius: 0 12px 12px 0;
+  }
+
+  .research-word {
+    display: initial;
     color: white;
     font-size: 1.2rem;
     font-weight: 500;
-    border-radius: 0 12px 12px 0;
+  }
+
+  .research-icon {
+    display: none;
   }
 
   /**
