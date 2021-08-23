@@ -39,6 +39,9 @@
 
 html {
   box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body * {
@@ -138,7 +141,7 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -147,7 +150,7 @@ nav,
 header,
 main,
 footer {
-  max-width: 100vh;
+  width: 100%;
 }
 
 nav,
@@ -537,6 +540,7 @@ footer section {
 }
 
 footer {
+  width: 100%;
   background-color: #f2f2f2;
   padding: 2rem;
   gap: 1rem;
@@ -645,6 +649,7 @@ footer {
   *
   **/
   footer {
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -682,9 +687,9 @@ footer {
   }
 
   body {
-    width: 100vw;
+    width: 100%;
     margin: 0;
-    padding: 0 3rem;
+    padding: 0;
   }
 
   nav,
