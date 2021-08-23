@@ -69,7 +69,8 @@ a:visited {
 
 /*  NAVIGATION */
 
-#nav-container div a {
+#nav-container div a,
+footer section a {
   text-decoration: none;
 }
 
@@ -95,6 +96,12 @@ aside {
 
 .empty {
   color: #f2f2f2;
+}
+
+/* FOOTER */
+
+footer section a {
+  font-weight: 500;
 }
 
 /**
@@ -512,6 +519,40 @@ aside {
 /**
 *
 *
+    FOOTER
+*
+*
+**/
+
+footer h3 {
+  margin: 0.5rem 0;
+}
+
+footer,
+footer section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+/**
+*
+*
+    OTHER SIZES
+*
+*
+**/
+
+/**
+*
+*
     MAX-WIDTH 480px
 *
 *
@@ -594,6 +635,18 @@ aside {
   .header-filter-container div button h4,
   .header-filter-container div button i {
     font-size: 1rem;
+  }
+
+  /**
+  *
+  *
+    FOOTER
+  *
+  *
+  **/
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
