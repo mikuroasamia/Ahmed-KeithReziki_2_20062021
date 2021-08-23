@@ -194,13 +194,20 @@ nav div {
   padding: 5%;
 }
 
+.nav-accommodations:active,
+.nav-activities:active,
 .nav-accommodations:hover,
-.nav-activities:hover {
+.nav-activities:hover,
+.nav-accommodations:visited,
+.nav-activities:visited {
   border-bottom: 2px solid #0065fc;
 }
-
+.nav-accommodations:active a,
+.nav-activities:active a,
 .nav-accommodations:hover a,
-.nav-activities:hover a {
+.nav-activities:hover a,
+.nav-accommodations:visited a,
+.nav-activities:visited a {
   color: #0065fc;
   font-weight: 500;
 }
@@ -299,7 +306,6 @@ form input[type="search"]::placeholder {
   color: #000000;
   font-size: 1.5em;
   font-weight: bold;
-  /* margin: auto; */
 }
 
 #search-input,
@@ -417,29 +423,33 @@ form input[type="search"]::placeholder {
 
 /* HEADER ARTICLE - INFO */
 article.info {
+  min-width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   height: 50px;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 0 0 0 5px;
+  gap: 1rem;
 }
 
 article.info i {
+  min-width: 1.5rem;
+  min-height: 1.5rem;
   color: #0065fc;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   font-size: 0.7rem;
-  border: 1px solid #f2f2f2;
+  border: 1px solid #d1cece;
   border-radius: 100%;
-  margin-right: 1rem;
 }
 
 article.info i::before {
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: space-around;
-  padding-top: 30%;
+  align-items: center;
+  justify-content: center;
 }
 
 article.info p {
@@ -652,6 +662,33 @@ footer {
   .header-filter-container div button h4,
   .header-filter-container div button i {
     font-size: 1rem;
+  }
+
+  /* HEADER ARTICLE - INFO */
+  article.info {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+
+  article.info i {
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    color: #0065fc;
+    width: 20px;
+    height: 20px;
+    font-size: 0.7rem;
+    border: 1px solid #d1cece;
+    border-radius: 100%;
+  }
+
+  article.info i::before {
+    padding-top: 0;
   }
 
   /**
@@ -894,35 +931,6 @@ footer {
   /* HEADER - SEARCH BAR & FILTERS */
 
   /* HEADER ARTICLE - INFO */
-  article.info {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 50px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 0 0 0 5px;
-  }
-
-  article.info i {
-    color: #0065fc;
-    width: 30px;
-    height: 30px;
-    font-size: 0.7rem;
-    border: 1px solid #f2f2f2;
-    border-radius: 100%;
-    margin-right: 1rem;
-  }
-
-  article.info i::before {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 30%;
-  }
-
-  article.info p {
-    font-weight: 500;
-  }
 
   /**
   *
