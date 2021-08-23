@@ -217,6 +217,15 @@ header {
   padding: 2rem 1rem;
 }
 
+header h2 {
+  font-size: 1.6rem;
+}
+
+header p,
+footer p {
+  font-size: 1.1rem;
+}
+
 header h2,
 header p {
   margin: 1rem 0;
@@ -279,6 +288,7 @@ header p {
   padding-left: 0.5rem;
   justify-content: center;
 }
+
 form input[type="search"]::-webkit-input-placeholder,
 form input[type="search"]::-moz-placeholder,
 form input[type="search"]:-moz-placeholder {
@@ -352,7 +362,6 @@ form input[type="search"]::placeholder {
 }
 
 .header-filter-title {
-  margin: 0 0 0 1rem;
   display: flex;
   align-self: flex-start;
 }
@@ -372,7 +381,7 @@ form input[type="search"]::placeholder {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 100px;
-  margin: 0.5rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
   gap: 0.2rem;
 }
 
