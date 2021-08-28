@@ -485,11 +485,12 @@ main article#accommodations {
 }
 
 main aside {
-  max-width: 30%;
+  order: 0;
 }
 
 .main-first-article,
 .main-bottom-article {
+  order: 1;
 }
 
 /**
@@ -958,14 +959,6 @@ footer {
   main article,
   main aside {
     border-radius: 20px;
-  }
-
-  main article#accommodations {
-    max-width: 70%;
-  }
-
-  main aside {
-    max-width: 30%;
   }
 
   /**
