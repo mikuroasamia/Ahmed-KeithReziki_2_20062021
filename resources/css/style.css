@@ -480,10 +480,6 @@ main aside {
   border-radius: 20px;
 }
 
-main article#accommodations {
-  max-width: 70%;
-}
-
 main aside {
   order: 0;
 }
