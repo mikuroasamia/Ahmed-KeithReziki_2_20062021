@@ -945,20 +945,16 @@ footer {
   **/
 
   main {
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 0 0;
+    /* display: flex; */
   }
 
   main article {
-    padding: 2.5rem;
+    /* padding: 2.5rem; */
   }
 
   main article,
   main aside {
-    border-radius: 20px;
+    /* border-radius: 20px; */
   }
 
   /**
