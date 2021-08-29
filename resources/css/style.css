@@ -458,7 +458,8 @@ article.info p {
   *
   **/
 
-main {
+main,
+main aside {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -470,7 +471,11 @@ main article {
 }
 
 main aside {
+  width: 100%;
+  padding: 2rem 1rem;
+  margin: 0;
   order: 0;
+  border: 2px solid blue;
 }
 
 .main-first-article,
@@ -480,11 +485,9 @@ main aside {
 
 .main-aside-h2-container {
   display: flex;
-}
-
-.main-aside-h2-container,
-.main-aside-i-container {
-  width: fit-content;
+  justify-content: space-between;
+  /* gap: 2rem; */
+  border: 2px solid red;
 }
 
 .main-aside-i-container {
