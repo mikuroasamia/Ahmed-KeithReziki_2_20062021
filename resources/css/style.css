@@ -545,33 +545,62 @@ main aside {
 
 .main-aside-h2-container {
   justify-content: space-between;
-  /* gap: 2rem; */
 }
 
 .main-aside-i-container {
   font-size: 1.5rem;
 }
 
-.card-type-aside,
-.card-type-aside img {
+.card-type-aside {
   border-radius: 20px;
+}
+
+.card-type-aside-img-container,
+.card-type-aside img {
+  border-radius: 20px 0 0 20px;
+}
+
+.card-type-aside-img-container {
+  width: 40%;
+  /* padding: 15px; */
+  margin: 5px;
+  overflow: hidden;
+}
+
+.card-type-aside img {
+  object-fit: cover;
+  /* transform: scale(1.1); */
 }
 
 .card-type-aside {
-  border: 2px solid blue;
   background-color: #fff;
   border-radius: 20px;
+  height: 130px;
 }
 
 .card-type-aside-side-description {
-  border: 2px solid red;
+  border: 2px solid blue;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  width: 70%;
 }
 
 .card-type-aside-h4-container {
+  gap: 0.5rem;
 }
-.card-type-aside-star-container
+
+.card-type-aside-h4-container h4 {
+  font-size: 1.1rem;
+}
+
+.card-type-aside-h4-container p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.card-type-aside-star-container {
+  font-size: 0.8rem;
+}
 
 /**
 *
