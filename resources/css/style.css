@@ -542,11 +542,21 @@ main aside {
 
 .card-type-aside,
 .card-type-aside-side-description {
-  border: 2px solid blue;
   display: flex;
 }
 
+.card-type-aside,
+.card-type-aside img {
+  border-radius: 20px;
+}
+
+.card-type-aside {
+  border: 2px solid blue;
+  border-radius: 20px;
+}
+
 .card-type-aside-side-description {
+  border: 2px solid red;
 }
 
 /**
