@@ -523,6 +523,7 @@ main aside {
   padding: 2rem 1rem;
   margin: 0;
   order: 0;
+  background-color: #f2f2f2;
 }
 
 .main-first-article,
@@ -552,11 +553,13 @@ main aside {
 
 .card-type-aside {
   border: 2px solid blue;
+  background-color: #fff;
   border-radius: 20px;
 }
 
 .card-type-aside-side-description {
   border: 2px solid red;
+  flex-direction: column;
 }
 
 /**
