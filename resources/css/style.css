@@ -564,22 +564,19 @@ main aside {
 }
 
 .card-type-aside {
+  max-width: 370px;
   height: 130px;
   border-radius: 10px;
-  /* overflow: hidden; */
   background-color: #fff;
 }
 
 .card-type-aside-span,
 .card-type-aside-img-container {
-  /* border-radius: 10px 0 0 10px; */
   justify-content: center;
 }
 
 .card-type-aside-img-container {
   width: 130px;
-
-  /* overflow: hidden; */
   padding: 3px;
 }
 
@@ -598,7 +595,7 @@ main aside {
 
 .card-type-aside-side-description {
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 1rem 0.5rem;
   width: 70%;
 }
 
