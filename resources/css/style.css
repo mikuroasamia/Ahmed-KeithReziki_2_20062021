@@ -593,7 +593,7 @@ main aside {
 .card-type-aside-span img {
   width: 100%;
   object-fit: cover;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .card-type-aside-side-description {
