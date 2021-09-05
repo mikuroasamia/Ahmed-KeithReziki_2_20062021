@@ -479,9 +479,7 @@ main article {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.main-first-article-card-container,
-.card-type-1-img-container,
-.card-type-1-span {
+.main-first-article-card-container {
   margin: 0;
   padding: 0;
 }
