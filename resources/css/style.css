@@ -652,36 +652,12 @@ footer {
 /**
 *
 *
-    MAX-WIDTH 480px
-*
-*
-**/
-
-@media screen and (max-device-width: 480px) {
-}
-
-@media screen and (max-device-width: 400px) and (orientation: portrait) {
-}
-
-/**
-*
-*
                           *********************
                               TABLET - SMALL
                           *********************
 *
 *
 **/
-
-/**
-*
-*
-    MIN-WIDTH 640px
-*
-*
-**/
-@media screen and (max-device-width: 640px) {
-}
 
 /**
 *
@@ -755,6 +731,19 @@ footer {
 
   article.info i::before {
     padding-top: 0;
+  }
+
+  /**
+  *
+  *
+    MAIN
+  *
+  *
+  **/
+
+  /* MAIN - ASIDE */
+  aside {
+    border-radius: 20px;
   }
 
   /**
