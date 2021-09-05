@@ -508,7 +508,7 @@ main article {
 .card-type-main-first-article {
   max-width: 370px;
   height: 220px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #fff;
 }
 
@@ -526,7 +526,7 @@ main article {
 .card-type-main-first-article-span {
   overflow: hidden;
   border: 2px solid #fff;
-  border-radius: 10px 0 0 10px;
+  border-radius: 20px 20px 0 0;
 }
 
 .card-type-main-first-article-span img {
