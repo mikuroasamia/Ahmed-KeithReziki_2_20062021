@@ -489,7 +489,6 @@ main article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 20px;
 }
 
 .card-type-main-first-article-aside,
