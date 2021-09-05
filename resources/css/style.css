@@ -456,6 +456,7 @@ article.info p {
   **/
 
 main,
+.main-first-article,
 main aside {
   display: flex;
   flex-direction: column;
@@ -489,6 +490,7 @@ main article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  gap: 20px;
 }
 
 .card-type-main-first-article-aside,
