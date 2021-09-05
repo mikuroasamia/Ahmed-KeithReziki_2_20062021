@@ -1204,19 +1204,23 @@ footer {
 *
 **/
 
+/* MIN-WIDTH - 1440px */
+
 @media screen and (min-device-width: 1440px) {
+  /* RESET */
   html,
   body {
     margin: 0;
     padding: 0;
   }
 
-  /* MAIN - CARDS */
+  /* MAIN - FIRST-ARTICLE - CARDS */
   .card-type-main-first-article,
   .card-type-main-first-article-img-container {
     width: 300px;
   }
 
+  /* FOOTER */
   footer {
     margin: auto;
   }
