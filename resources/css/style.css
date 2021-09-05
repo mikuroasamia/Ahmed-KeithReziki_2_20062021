@@ -674,10 +674,18 @@ main aside {
   max-width: 100%;
 }
 
-.main-bottom-article {
+.main-bottom-article,
+.main-bottom-article-card-container {
   display: flex;
-  flex-direction: column;
   gap: 20px;
+}
+
+.main-bottom-article {
+  flex-direction: column;
+}
+
+.main-bottom-article-card-container {
+  flex-direction: column;
 }
 
 /**
