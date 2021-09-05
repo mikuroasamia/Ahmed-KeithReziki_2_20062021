@@ -667,9 +667,17 @@ main aside {
   font-size: 0.8rem;
 }
 
+/* MAIN - BOTTOM-ARTICLE */
+
 .main-bottom-article,
 .main-bottom-article img {
   max-width: 100%;
+}
+
+.main-bottom-article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /**
