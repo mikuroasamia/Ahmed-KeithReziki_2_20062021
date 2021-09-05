@@ -492,50 +492,84 @@ main article {
   gap: 20px;
 }
 
-.card-type-1 {
-  background-color: #fff;
-}
-
+/* .card-type-1,
 .card-type-1-img-container,
 .card-type-1-span {
   width: 370px;
+} */
+
+.main-type-main-first-article-h2-container,
+.card-type-main-first-article-aside,
+.card-type-main-first-article-aside-side-description,
+.card-type-main-first-article-h4-container,
+.card-type-main-first-article-img-container,
+.card-type-main-first-article-span {
+  display: flex;
 }
 
-.card-type-1-span {
-  overflow: hidden;
-  border: 2px solid red;
-  border-radius: 10px 0 0 10px;
+.card-type-main-first-article-side-description,
+.card-type-main-first-article-h4-container {
+  flex-direction: column;
+}
+
+.main-main-first-article-h2-container {
+  justify-content: space-between;
+}
+
+.main-main-first-article-i-container {
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.card-type-main-first-article- {
+  max-width: 370px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.card-type-main-first-article-span,
+.card-type-main-first-article-img-container {
   justify-content: center;
 }
 
-.card-type-1-span img {
-  display: block;
-  width: 370px;
-  height: 130px;
-  object-fit: cover;
-  /* transform: scale(1.1); */
+.card-type-main-first-article-img-container {
+  width: 130px;
+  padding: 3px;
 }
 
-.card-type-1-bottom-description {
+.card-type-main-first-article-span {
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 10px 0 0 10px;
+}
+
+.card-type-main-first-article-span img {
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1.1);
+}
+
+.card-type-main-first-article-side-description {
   justify-content: space-between;
   padding: 1rem 0.5rem;
   width: 70%;
 }
 
-.card-type-1-h4-container {
+.card-type-main-first-article-h4-container {
   gap: 0.5rem;
 }
 
-.card-type-1-h4-container h4 {
+.card-type-main-first-article-h4-container h4 {
   font-size: 1.1rem;
 }
 
-.card-type-1-h4-container p {
+.card-type-main-first-article-h4-container p {
   font-size: 0.9rem;
   font-weight: 500;
 }
 
-.card-type-1-star-container {
+.card-type-main-first-article-star-container {
   font-size: 0.8rem;
 }
 
