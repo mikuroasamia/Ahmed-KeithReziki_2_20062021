@@ -804,9 +804,19 @@ footer {
 
   /* MAIN - ORDER */
 
+  .main-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
   .main-first-article,
   main aside {
     order: 0;
+  }
+
+  .main-first-article {
+    background-color: #f2f2f2;
   }
 
   /* MAIN - ASIDE */
