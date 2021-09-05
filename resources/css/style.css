@@ -663,6 +663,11 @@ main aside {
   font-size: 0.8rem;
 }
 
+.main-bottom-article,
+.main-bottom-article img {
+  max-width: 100%;
+}
+
 /**
 *
 *
@@ -792,6 +797,13 @@ footer {
   *
   *
   **/
+
+  /* MAIN - ORDER */
+
+  .main-first-article,
+  main aside {
+    order: 0;
+  }
 
   /* MAIN - ASIDE */
   aside {
