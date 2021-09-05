@@ -476,7 +476,7 @@ main article {
   *
   **/
 .shadow {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .main-first-article-card-container {
@@ -665,6 +665,7 @@ main aside {
   font-size: 0.8rem;
 }
 
+/* ************************************************************************************ */
 /* MAIN - BOTTOM-ARTICLE */
 
 .main-bottom-article,
@@ -685,6 +686,57 @@ main aside {
 .main-bottom-article-card-container {
   flex-direction: column;
 }
+
+.card-type-main-bottom-article-aside,
+.card-type-main-bottom-article-aside-description,
+.card-type-main-bottom-article-h4-container,
+.card-type-main-bottom-article-img-container,
+.card-type-main-bottom-article-span {
+  display: flex;
+}
+
+.card-type-main-bottom-article-description,
+.card-type-main-bottom-article-h4-container {
+  flex-direction: column;
+}
+
+.card-type-main-bottom-article {
+  max-width: 100%;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.card-type-main-bottom-article-span,
+.card-type-main-bottom-article-img-container {
+  justify-content: center;
+  width: 100%;
+}
+
+.card-type-main-bottom-article-span {
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-type-main-bottom-article-span img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-type-main-bottom-article-description {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.card-type-main-bottom-article-description,
+.card-type-main-bottom-article-h4-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card-type-main-bottom-article-h4-container h4 {
+  font-size: 1.1rem;
+}
+
+/* *************************************************************************************** */
 
 /**
 *
