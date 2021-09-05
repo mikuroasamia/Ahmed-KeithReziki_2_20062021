@@ -492,7 +492,6 @@ main article {
   gap: 20px;
 }
 
-.main-type-main-first-article-h2-container,
 .card-type-main-first-article-aside,
 .card-type-main-first-article-aside-description,
 .card-type-main-first-article-h4-container,
@@ -504,15 +503,6 @@ main article {
 .card-type-main-first-article-description,
 .card-type-main-first-article-h4-container {
   flex-direction: column;
-}
-
-.main-main-first-article-h2-container {
-  justify-content: space-between;
-}
-
-.main-main-first-article-i-container {
-  font-size: 1.5rem;
-  padding-right: 0.5rem;
 }
 
 .card-type-main-first-article {
