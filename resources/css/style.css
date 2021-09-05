@@ -574,6 +574,11 @@ main article {
 
 /* ASIDE */
 
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 main aside {
   width: 100%;
   max-width: 426px;
@@ -583,8 +588,7 @@ main aside {
   background-color: #f2f2f2;
 }
 
-.main-first-article,
-.main-bottom-article {
+.main-first-article {
   order: 1;
 }
 
