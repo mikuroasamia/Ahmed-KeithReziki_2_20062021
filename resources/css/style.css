@@ -702,15 +702,9 @@ footer {
   /* HEADER - FILTERS */
   /* FILTERS */
   .header-filter-container {
-    width: 89vh;
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    text-align: center;
     justify-content: flex-start;
     padding: 0;
-    margin: 1rem 1rem 1rem 0;
-    gap: 1rem;
   }
 
   .header-filter-container h4 {
