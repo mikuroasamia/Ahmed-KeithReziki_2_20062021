@@ -478,15 +478,19 @@ main article {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.main-first-article-card-container,
+.card-type-1-img-container,
+.card-type-1-span {
+  margin: 0;
+  padding: 0;
+}
+
 .main-first-article-card-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   gap: 20px;
 }
-
-/* ******************************************************************** */
-/* HERE */
 
 .card-type-1 {
   background-color: #fff;
@@ -495,17 +499,13 @@ main article {
 .card-type-1-img-container,
 .card-type-1-span {
   width: 370px;
-  margin: 0;
-}
-
-.card-type-1-img-container {
-  padding: 3px;
 }
 
 .card-type-1-span {
   overflow: hidden;
   border: 2px solid red;
   border-radius: 10px 0 0 10px;
+  justify-content: center;
 }
 
 .card-type-1-span img {
@@ -538,9 +538,6 @@ main article {
 .card-type-1-star-container {
   font-size: 0.8rem;
 }
-
-/* HERE */
-/* ******************************************************************** */
 
 /**
   *
