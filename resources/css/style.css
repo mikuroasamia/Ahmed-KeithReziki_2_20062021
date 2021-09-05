@@ -533,11 +533,10 @@ main article {
 .card-type-main-first-article-span img {
   width: 100%;
   object-fit: cover;
-  transform: scale(1.1);
 }
 
 .card-type-main-first-article-description {
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
   height: 90px;
 }
 
@@ -558,6 +557,11 @@ main article {
 
 .card-type-main-first-article-star-container {
   font-size: 0.8rem;
+}
+
+.show-more {
+  font-size: 1.3rem;
+  margin-top: 20px;
 }
 
 /**
