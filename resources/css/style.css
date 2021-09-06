@@ -669,11 +669,6 @@ main aside {
 /* MAIN - BOTTOM-ARTICLE */
 
 .main-bottom-article,
-.main-bottom-article img {
-  max-width: 100%;
-}
-
-.main-bottom-article,
 .main-bottom-article-card-container {
   display: flex;
   gap: 20px;
@@ -701,7 +696,7 @@ main aside {
 }
 
 .card-type-main-bottom-article {
-  max-width: 100%;
+  gap: 20px;
   border-radius: 20px;
   background-color: #fff;
 }
@@ -709,7 +704,6 @@ main aside {
 .card-type-main-bottom-article-span,
 .card-type-main-bottom-article-img-container {
   justify-content: center;
-  width: 100%;
 }
 
 .card-type-main-bottom-article-span {
