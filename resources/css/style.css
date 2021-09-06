@@ -1314,18 +1314,12 @@ footer {
     padding: 0;
   }
 
-  body {
-    border: 2px solid blue;
-  }
-
   footer {
-    border: 2px solid red;
     justify-content: center;
   }
 
   /* NAV */
   nav#nav-container {
-    /* width: 100%; */
     margin: 0;
     padding: 0;
     justify-content: center;
