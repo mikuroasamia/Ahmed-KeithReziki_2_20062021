@@ -848,7 +848,7 @@ footer {
 *
 *
 **/
-@media screen and (min-device-width: 760px) {
+@media screen and (min-device-width: 624px) {
   /**
   *
   *
@@ -880,12 +880,18 @@ footer {
   }
 
   .header-filter-container div button {
+    padding: 0;
     margin: 0;
+    gap: 0;
   }
 
   .header-filter-container div button h4,
   .header-filter-container div button i {
     font-size: 0.9rem;
+  }
+
+  .header-filter-container div button span h4 {
+    padding: 0;
   }
 
   /* HEADER ARTICLE - INFO */
@@ -929,6 +935,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin: 0 auto;
   }
 
   .main-first-article,
