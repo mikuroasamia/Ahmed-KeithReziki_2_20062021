@@ -704,6 +704,8 @@ main aside {
 .card-type-main-bottom-article-span,
 .card-type-main-bottom-article-img-container {
   justify-content: center;
+  width: 100%;
+  height: 10rem;
 }
 
 .card-type-main-bottom-article-span {
