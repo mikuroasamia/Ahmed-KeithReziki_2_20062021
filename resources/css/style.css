@@ -977,6 +977,7 @@ footer {
 
   .bottom-article-25 {
     width: 25%;
+    /* height: 100%; */
   }
 
   .A {
@@ -984,14 +985,15 @@ footer {
   }
 
   .B-1 {
-    height: 60%;
+    height: 55%;
   }
 
   .B-2 {
-    height: 40%;
+    height: 35%;
   }
 
   .C {
+    height: 45%;
   }
 
   /**
