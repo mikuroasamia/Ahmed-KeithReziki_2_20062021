@@ -971,6 +971,14 @@ footer {
 
   /* MAIN - BOTTOM ARTICLE */
 
+  .main-bottom-article-card-container {
+    flex-direction: row;
+  }
+
+  .bottom-article-25 {
+    width: 25%;
+  }
+
   /**
   *
   *
