@@ -976,11 +976,6 @@ footer {
     height: 30rem;
   }
 
-  .card-type-main-bottom-article-img-container {
-    height: 100%;
-    overflow: hidden;
-  }
-
   .bottom-article-25 {
     display: flex;
     justify-content: space-evenly;
