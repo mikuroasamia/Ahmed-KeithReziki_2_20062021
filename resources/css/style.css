@@ -973,18 +973,46 @@ footer {
 
   .main-bottom-article-card-container {
     flex-direction: row;
+    height: 30rem;
+  }
+
+  .card-type-main-bottom-article-img-container {
+    height: 100%;
+    overflow: hidden;
   }
 
   .bottom-article-25 {
+    display: flex;
+    justify-content: space-evenly;
     width: 25%;
-    /* height: 100%; */
+  }
+
+  .A,
+  .B1,
+  .B-2,
+  .C {
+    width: 100%;
   }
 
   .A {
     height: 100%;
   }
 
+  .A .card-type-main-bottom-article-description,
+  .A .card-type-main-bottom-article-h4-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .A-container,
+  .A-container .card-type-main-bottom-article-span {
+  }
+
   .B-1 {
+    height: 55%;
+  }
+
+  .B-1-container {
     height: 55%;
   }
 
@@ -992,8 +1020,20 @@ footer {
     height: 35%;
   }
 
+  .B-2-container {
+    height: 35%;
+  }
+
   .C {
     height: 45%;
+  }
+
+  .C-container {
+    height: 45%;
+  }
+
+  .main-bottom-article-card-container div div span img {
+    transform: scale(1.1);
   }
 
   /**
