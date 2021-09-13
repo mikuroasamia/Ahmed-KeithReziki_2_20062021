@@ -317,7 +317,7 @@ form input[type="search"]::placeholder {
 .research-icon,
 .research-word {
   display: block;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   min-width: 100%;
   font-size: 1rem;
   background-color: #0065fc;
@@ -390,11 +390,10 @@ form input[type="search"]::placeholder {
 
 .header-filter-container div h4 {
   font-size: 1.1rem;
-  margin: 0 0.5rem;
 }
 
 .btn-filter {
-  gap: 2rem;
+  gap: 0.5rem;
 }
 
 .btn-filter div {
@@ -783,58 +782,6 @@ footer {
 *
 *
                           *********************
-                              MOBILE - SMALL
-                          *********************
-*
-*
-**/
-
-/**
-*
-*
-    MAX-WIDTH 320px
-*
-*
-**/
-
-@media screen and (max-device-width: 320px) {
-  /* MAIN - FIRST ARTICLE - CARDS */
-  .card-type-main-first-article,
-  .card-type-main-first-article-img-container {
-    max-width: 288px;
-  }
-}
-
-/**
-*
-*
-                          *********************
-                              MOBILE - MEDIUM
-                          *********************
-*
-*
-**/
-
-/**
-*
-*
-    MAX-WIDTH 375px
-*
-*
-**/
-
-@media screen and (max-device-width: 375px) {
-  /* MAIN - FIRST ARTICLE - CARDS */
-  .card-type-main-first-article,
-  .card-type-main-first-article-img-container {
-    width: 343px;
-  }
-}
-
-/**
-*
-*
-                          *********************
                               TABLET - SMALL
                           *********************
 *
@@ -844,7 +791,7 @@ footer {
 /**
 *
 *
-    MAX-WIDTH 780px
+    MIN-WIDTH 624px
 *
 *
 **/
