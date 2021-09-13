@@ -372,19 +372,11 @@ form input[type="search"]::placeholder {
   flex-wrap: wrap;
 }
 
-.header-filter-container div div {
+.header-filter-container > div > div {
   background-color: #fff;
   border: 2px solid #f2f2f2;
   border-radius: 100px;
   margin: 0.5rem 0.5rem 0.5rem 0;
-  gap: 0.2rem;
-}
-
-.header-filter-container div div i {
-  color: #0065fc;
-  font-size: 0.8rem;
-  background-color: #deebff;
-  border-radius: 100%;
 }
 
 .header-filter-container div div,
@@ -396,25 +388,45 @@ form input[type="search"]::placeholder {
   justify-content: center;
 }
 
-.header-filter-container div div i::before {
-  font-size: 1rem;
-}
-
-.header-filter-container div span {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.header-filter-container div span h4 {
+.header-filter-container h4 {
   font-size: 1.1rem;
 }
 
+.btn-filter {
+  gap: 0.5rem;
+}
+
+.btn-filter div {
+  padding-right: 0.5rem;
+}
+
+.btn-filter i {
+  color: #0065fc;
+  font-size: 0.8rem;
+  background-color: #deebff;
+  border-radius: 100%;
+}
+
+.btn-filter i::before {
+  font-size: 1rem;
+}
+
+.btn-filter:hover {
+  border-color: rgb(243, 24, 134);
+}
+
+.btn-filter:hover,
 .btn-filter:hover i {
   background-color: rgb(243, 24, 134);
 }
 
-.btn-filter:hover i::before {
+.btn-filter:hover i::before,
+.btn-filter:hover div h4 {
   color: white;
+}
+
+.btn-filter:hover i::before {
+  font-size: 1.5rem;
 }
 
 /* HEADER - INFO */
