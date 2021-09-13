@@ -967,17 +967,16 @@ footer {
 
   .main-bottom-article-card-container {
     flex-direction: row;
-    height: 30rem;
-    justify-content: space-between;
   }
 
   .bottom-article-25 {
     width: 25%;
-    display: flex;
   }
 
   .column {
+    display: flex;
     flex-direction: column;
+    gap: 1.5rem;
   }
 
   .card-type-main-bottom-article {
