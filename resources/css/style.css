@@ -974,12 +974,16 @@ footer {
   .main-bottom-article-card-container {
     flex-direction: row;
     height: 30rem;
+    justify-content: space-between;
   }
 
   .bottom-article-25 {
     display: flex;
-    justify-content: space-evenly;
-    width: 25%;
+    max-width: 25%;
+  }
+
+  .column {
+    flex-direction: column;
   }
 
   .main-bottom-article-card-container div div span img {
