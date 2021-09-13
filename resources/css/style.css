@@ -933,7 +933,7 @@ footer {
   .main-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 2.5rem;
     margin: 0 auto;
   }
 
@@ -966,6 +966,7 @@ footer {
 
   .main-bottom-article-card-container {
     flex-direction: row;
+    gap: 2.5rem;
   }
 
   .bottom-article-25 {
@@ -975,11 +976,14 @@ footer {
   .column {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2.5rem;
   }
 
-  .card-type-main-bottom-article-img-container {
-    /* height: 100%; */
+  .A,
+  .A
+    .card-type-main-bottom-article-img-container
+    .card-type-main-bottom-article-span {
+    height: 100%;
   }
 
   /**
