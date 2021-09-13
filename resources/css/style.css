@@ -411,6 +411,14 @@ form input[type="search"]::placeholder {
   font-size: 1.1rem;
 }
 
+.btn-filter:hover i {
+  background-color: rgb(243, 24, 134);
+}
+
+.btn-filter:hover i::before {
+  color: white;
+}
+
 /* HEADER ARTICLE - INFO */
 article.info {
   min-width: 100%;
