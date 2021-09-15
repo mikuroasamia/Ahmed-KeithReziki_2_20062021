@@ -1300,7 +1300,7 @@ footer {
 *
 **/
 
-@media screen and (min-device-width: 1920px) {
+@media screen and (min-device-width: 1024px) {
   /* BODY */
   html,
   body {
@@ -1311,11 +1311,8 @@ footer {
   nav,
   header,
   main {
-    max-width: 2560px;
-  }
-
-  footer {
-    justify-content: center;
+    width: 100%;
+    max-width: 1600px;
   }
 
   /* NAV */
@@ -1327,8 +1324,15 @@ footer {
 
   .nav-logo,
   .nav-logo a img {
-    margin: 0 auto 0 0;
     padding: 0;
+  }
+
+  .nav-logo {
+    margin: 0 0 0 0;
+  }
+
+  .nav-logo a img {
+    margin: 0 0 0 0;
   }
 
   .nav-buttons {
@@ -1340,5 +1344,10 @@ footer {
   .nav-accommodations,
   .nav-activities {
     width: 120px;
+  }
+
+  /* FOOTER */
+  footer {
+    justify-content: center;
   }
 }
