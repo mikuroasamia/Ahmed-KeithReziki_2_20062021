@@ -1213,11 +1213,9 @@ footer {
   **/
 
   /* MAIN - CARDS */
-  .card-type-main-first-article,
-  .card-type-main-first-article-img-container {
-    width: 260px;
+  main {
+    flex-direction: ;
   }
-
   /**
   *
   *
