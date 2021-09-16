@@ -767,7 +767,7 @@ footer {
   width: 100%;
   background-color: #f2f2f2;
   padding: 2rem;
-  gap: 1rem;
+  gap: 2.5rem;
 }
 
 /**
@@ -782,7 +782,7 @@ footer {
 *
 *
                           *********************
-                              TABLET - SMALL
+                                  TABLET
                           *********************
 *
 *
@@ -1286,7 +1286,9 @@ footer {
   *
   **/
   footer {
+    width: 100%;
+    display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 2.5rem;
   }
 }
