@@ -1002,19 +1002,57 @@ footer {
   /**
   *
   *
+    BODY
+  *
+  *
+  **/
+
+  /* BODY */
+  html,
+  body {
+    margin: auto;
+    padding: 0;
+  }
+
+  nav,
+  header,
+  main {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  /**
+  *
+  *
     NAVIGATION 
   *
   *
   **/
 
+  /* NAV */
   nav {
     flex-wrap: wrap;
-    padding-left: 10px;
-    padding-right: 0;
+    margin: 0 auto 0;
+    padding: 0;
+    justify-content: flex-end;
+    gap: 0;
   }
 
   #nav-container * {
     flex-wrap: nowrap;
+  }
+
+  .nav-logo,
+  .nav-logo a img {
+    padding: 0;
+  }
+
+  .nav-logo {
+    margin: 0 auto 0 0;
+  }
+
+  .nav-logo a img {
+    margin: 0 0 0 0;
   }
 
   .nav-logo,
@@ -1023,15 +1061,14 @@ footer {
     max-width: 33%;
   }
 
-  .nav-logo {
-    padding-left: 0;
-    margin-right: auto;
+  .nav-buttons {
+    width: fit-content;
     margin-left: 0;
   }
 
   .nav-accommodations,
   .nav-activities {
-    width: fit-content;
+    width: 10rem;
     border-bottom: none;
     order: 0;
   }
@@ -1051,6 +1088,10 @@ footer {
   .nav-activities:hover a {
     color: #0065fc;
     font-weight: 500;
+  }
+
+  .nav-accommodations {
+    margin-left: 0;
   }
 
   .nav-subscribe {
@@ -1236,82 +1277,5 @@ footer {
   footer {
     justify-content: center;
     gap: 10%;
-  }
-}
-
-/**
-*
-*
-    LAPTOP LARGE SCREEN
-*
-*
-**/
-
-/**
-*
-*
-    4K SCREEN
-*
-*
-**/
-
-@media screen and (min-device-width: 1024px) {
-  /* BODY */
-  html,
-  body {
-    margin: auto;
-    padding: 0;
-  }
-
-  nav,
-  header,
-  main {
-    width: 100%;
-    max-width: 1400px;
-  }
-
-  /* NAV */
-  nav {
-    margin: 0 auto 0;
-    padding: 0;
-    justify-content: flex-end;
-    gap: 0;
-  }
-
-  .nav-logo,
-  .nav-logo a img {
-    padding: 0;
-  }
-
-  .nav-logo {
-    margin: 0 auto 0 0;
-  }
-
-  .nav-logo a img {
-    margin: 0 0 0 0;
-  }
-
-  .nav-buttons {
-    width: fit-content;
-    margin-left: 0;
-  }
-
-  .nav-accommodations,
-  .nav-activities {
-    width: 10rem;
-  }
-
-  .nav-accommodations {
-    margin-left: 0;
-  }
-
-  .nav-subscribe {
-    display: flex;
-    align-content: center;
-  }
-
-  /* FOOTER */
-  footer {
-    justify-content: center;
   }
 }
