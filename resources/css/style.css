@@ -488,7 +488,11 @@ main,
 main aside {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+}
+
+.main-first-article,
+aside {
+  gap: 2.5rem;
 }
 
 main article {
@@ -516,7 +520,7 @@ main article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 20px;
+  gap: 0.5rem;
 }
 
 .card-type-main-first-article-aside,
@@ -713,6 +717,10 @@ main aside {
 .main-bottom-article-card-container,
 .column {
   gap: 2.5rem;
+}
+
+.main-bottom-article {
+  padding-top: 0;
 }
 
 .card-type-main-bottom-article {
