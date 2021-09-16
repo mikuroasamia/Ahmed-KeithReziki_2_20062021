@@ -905,6 +905,10 @@ footer {
     flex-wrap: wrap;
   }
 
+  .card-type-main-first-article {
+    max-width: 16rem;
+  }
+
   /* MAIN - ASIDE */
   aside {
     border-radius: 20px;
