@@ -305,8 +305,11 @@ form input[type="search"]::placeholder {
 }
 
 #search-input {
+  width: 48px;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 0);
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
@@ -317,17 +320,21 @@ form input[type="search"]::placeholder {
 .research-icon,
 .research-word {
   display: block;
-  padding: 0 0.5rem;
-  min-width: 100%;
   font-size: 1rem;
   background-color: #0065fc;
   border-radius: 12px 12px;
+}
+
+.research-icon,
+.research-icon i {
+  width: 100%;
 }
 
 .research-icon i {
   color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .research-word {
@@ -342,7 +349,7 @@ form input[type="search"]::placeholder {
   *
   **/
 
-/* HEADER - SEARCH BAR */
+/* HEADER - FILTERS */
 
 /* FILTERS */
 .header-filter-container {
@@ -803,6 +810,11 @@ footer {
   *
   *
   **/
+
+  /* HEADER - SEARCH */
+  #search-input {
+    width: 48px;
+  }
 
   /* HEADER - FILTERS */
   /* FILTERS */
