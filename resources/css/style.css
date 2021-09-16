@@ -795,7 +795,7 @@ footer {
 *
 *
 **/
-@media screen and (min-device-width: 624px) {
+@media screen and (min-device-width: 450px) {
   /**
   *
   *
@@ -877,18 +877,23 @@ footer {
   *
   **/
 
-  /* MAIN - ORDER */
+  /* MAIN */
+
+  .main-wrapper,
+  .main-first-article,
+  main aside {
+    display: flex;
+  }
 
   .main-wrapper {
-    display: flex;
-    flex-direction: row;
     gap: 2.5rem;
     margin: 0 auto;
   }
 
-  .main-first-article,
   main aside {
-    order: 0;
+  }
+
+  .main-first-article {
   }
 
   .main-first-article {
