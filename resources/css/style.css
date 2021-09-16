@@ -890,20 +890,14 @@ footer {
     margin: 0 auto;
   }
 
-  main aside {
-  }
-
-  .main-first-article {
-  }
-
-  .main-first-article {
-    background-color: #f2f2f2;
-  }
-
   /* MAIN - FIRST ARTICLE */
   .main-first-article,
   .main-first-article-card-container {
     width: 100%;
+  }
+
+  .main-first-article {
+    background-color: #f2f2f2;
   }
 
   .main-first-article-card-container {
