@@ -830,7 +830,6 @@ footer {
   header,
   main {
     width: 100%;
-    width: 768px;
   }
 
   /**
@@ -985,17 +984,20 @@ footer {
   .main-bottom-article-card-container,
   .column {
     flex-wrap: wrap;
+    padding: 0;
+    gap: 1.5rem;
   }
 
-  .bottom-article-25 {
-    width: fit-content;
+  .main-bottom-article-card-container {
+    display: flex;
+    justify-content: center;
   }
 
   .card-type-main-bottom-article {
-    width: 13.65rem;
+    width: 14rem;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   /**
@@ -1033,11 +1035,11 @@ footer {
 /**
 *
 *
-    MIN-WIDTH 860px
+    MIN-WIDTH 1000px
 *
 *
 **/
-@media screen and (min-device-width: 780px) {
+@media screen and (min-device-width: 1000px) {
   /**
   *
   *
@@ -1248,6 +1250,8 @@ footer {
     color: white;
     font-size: 1.2rem;
     font-weight: 500;
+    display: flex;
+    align-items: center;
   }
 
   .research-icon {
@@ -1282,6 +1286,24 @@ footer {
     background-color: #f2f2f2;
   }
 
+  .main-first-article,
+  aside {
+    order: 0;
+  }
+
+  .main-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-first-article {
+    min-width: 50%;
+  }
+
+  aside {
+    max-width: 30%;
+  }
+
   /**
   *
   *
@@ -1291,10 +1313,19 @@ footer {
   **/
 
   /* MAIN - CARDS */
-  main {
-    flex-direction: ;
+  .main-first-article-card-container {
+    /* justify-content: normal; */
+    gap: 2.5rem;
   }
 
+  .card-type-main-first-article-h4-container h4 {
+    font-size: 0.9rem;
+  }
+
+  .card-type-main-first-article {
+    width: 10rem;
+    height: 10rem;
+  }
   /**
   *
   *
@@ -1304,6 +1335,9 @@ footer {
   **/
 
   /* ASIDE */
+  .card-type-aside {
+    height: 9rem;
+  }
 
   /**
   *
@@ -1322,10 +1356,4 @@ footer {
   *
   *
   **/
-  footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 2.5rem;
-  }
 }
