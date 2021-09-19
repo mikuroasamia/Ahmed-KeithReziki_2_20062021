@@ -1345,6 +1345,7 @@ footer {
   *
   *
   **/
+
   .main-bottom-article-card-container,
   .column {
     gap: 2rem;
@@ -1352,11 +1353,13 @@ footer {
     padding: 0;
   }
 
-  .main-bottom-article-card-container {
-    justify-content: flex-start;
+  .main-bottom-article-card-container,
+  .bottom-article-25 {
+    height: 26rem;
   }
 
-  .card-type-main-bottom-article {
+  .main-bottom-article-card-container {
+    justify-content: flex-start;
   }
 
   .A img {
@@ -1364,6 +1367,11 @@ footer {
   }
 
   .B-01 img {
+    height: 60%;
+  }
+
+  . .C-01 img,
+  .C-02 img {
     height: 100%;
   }
 
