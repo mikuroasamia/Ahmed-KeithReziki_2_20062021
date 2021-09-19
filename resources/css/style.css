@@ -492,7 +492,7 @@ main aside {
 
 .main-first-article,
 aside {
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 main article {
@@ -520,7 +520,7 @@ main article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .card-type-main-first-article-aside,
@@ -716,7 +716,7 @@ main aside {
 .main-bottom-article,
 .main-bottom-article-card-container,
 .column {
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .main-bottom-article {
@@ -782,7 +782,7 @@ footer {
   width: 100%;
   background-color: #f2f2f2;
   padding: 2rem;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 /**
@@ -927,7 +927,7 @@ footer {
   }
 
   .main-wrapper {
-    gap: 2.5rem;
+    gap: 2rem;
     margin: 0 auto;
   }
 
@@ -972,7 +972,7 @@ footer {
   /* RESET */
 
   .main-bottom-article {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
   }
 
   .main-bottom-article-card-container,
@@ -1314,8 +1314,7 @@ footer {
 
   /* MAIN - CARDS */
   .main-first-article-card-container {
-    /* justify-content: normal; */
-    gap: 2.5rem;
+    gap: 2rem;
   }
 
   .card-type-main-first-article-h4-container h4 {
@@ -1346,6 +1345,31 @@ footer {
   *
   *
   **/
+  .main-bottom-article-card-container,
+  .column {
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-bottom-article-card-container {
+    justify-content: flex-start;
+  }
+
+  .card-type-main-bottom-article {
+  }
+
+  .A img {
+    height: 100%;
+  }
+
+  .B-01 img {
+    height: 100%;
+  }
+
+  .column {
+    flex-direction: column;
+  }
 
   /* BOTTOM ARTICLE */
 
