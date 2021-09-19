@@ -1346,6 +1346,10 @@ footer {
   *
   **/
 
+  .main-bottom-article {
+    /* height: 46rem; */
+  }
+
   .main-bottom-article-card-container,
   .column {
     gap: 2rem;
@@ -1353,13 +1357,13 @@ footer {
     padding: 0;
   }
 
-  .main-bottom-article-card-container,
-  .bottom-article-25 {
-    height: 26rem;
+  .main-bottom-article-card-container {
+    height: 25rem;
+    justify-content: flex-start;
   }
 
-  .main-bottom-article-card-container {
-    justify-content: flex-start;
+  .bottom-article-25 {
+    height: 100%;
   }
 
   .A img {
@@ -1370,9 +1374,13 @@ footer {
     height: 60%;
   }
 
-  . .C-01 img,
+  .B-02 img {
+    height: 40%;
+  }
+
+  .C-01 img,
   .C-02 img {
-    height: 100%;
+    height: 50%;
   }
 
   .column {
