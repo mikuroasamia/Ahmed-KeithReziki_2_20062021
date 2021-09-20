@@ -369,10 +369,6 @@ form input[type="search"]::placeholder {
   align-self: flex-start;
 }
 
-.header-filter-container h4 {
-  font-size: 1.2rem;
-}
-
 .header-filter-buttons-container {
   display: flex;
   flex-direction: row;
@@ -393,10 +389,6 @@ form input[type="search"]::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.header-filter-container div h4 {
-  font-size: 1.1rem;
 }
 
 .btn-filter {
@@ -424,7 +416,6 @@ form input[type="search"]::placeholder {
 }
 
 .btn-filter:hover div h4 {
-  font-size: 1rem;
   color: #0065fc;
 }
 
@@ -436,8 +427,9 @@ form input[type="search"]::placeholder {
   color: white;
 }
 
+.btn-filter:hover h4,
 .btn-filter:hover i::before {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /* HEADER - INFO */
@@ -573,7 +565,6 @@ main article {
 
 .card-type-main-first-article-description {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
-  height: 90px;
 }
 
 .card-type-main-first-article-description,
@@ -690,7 +681,7 @@ main aside {
 }
 
 .card-type-aside-h4-container h4 {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .card-type-aside-h4-container p {
@@ -832,6 +823,10 @@ footer {
     width: 100%;
   }
 
+  h4 {
+    font-size: 1rem;
+  }
+
   /**
   *
   *
@@ -871,11 +866,6 @@ footer {
     padding: 0;
     margin: 0;
     gap: 0;
-  }
-
-  .header-filter-container div div h4,
-  .header-filter-container div div i {
-    font-size: 0.9rem;
   }
 
   .header-filter-container div div div h4 {
@@ -1219,7 +1209,7 @@ footer {
   #marseille-placeholder::placeholder {
     width: 250px;
     color: #000000;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: bold;
     margin: auto;
   }
@@ -1309,12 +1299,7 @@ footer {
   }
 
   .card-type-main-first-article-h4-container h4 {
-    font-size: 0.9rem;
-  }
-
-  .card-type-main-first-article {
-    width: 10rem;
-    height: 10rem;
+    font-size: 1rem;
   }
   /**
   *
