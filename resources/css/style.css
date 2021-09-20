@@ -1040,7 +1040,7 @@ footer {
   header,
   main {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1440px;
   }
 
   /**
@@ -1323,15 +1323,33 @@ footer {
   **/
 
   /* BOTTOM ARTICLE */
+
   .main-bottom-article-card-container {
     gap: 2rem;
     margin: 0;
     padding: 0;
-  }
-
-  .main-bottom-article-card-container {
     width: 100%;
     flex-wrap: nowrap;
+  }
+
+  .card-type-main-bottom-article {
+    height: 430px;
+  }
+
+  .A img {
+    height: 100%;
+  }
+
+  .B-01 {
+    height: 40%;
+  }
+
+  .B-02 {
+    height: 40%;
+  }
+
+  .C {
+    height: 40%;
   }
 
   /**
@@ -1341,4 +1359,11 @@ footer {
   *
   *
   **/
+
+  /* FOOTER */
+
+  footer {
+    justify-content: initial;
+    gap: 10rem;
+  }
 }
