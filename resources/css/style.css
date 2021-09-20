@@ -975,27 +975,16 @@ footer {
     margin-top: 2rem;
   }
 
-  .main-bottom-article-card-container,
-  .bottom-article-25 {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .main-bottom-article-card-container,
-  .column {
-    flex-wrap: wrap;
-    padding: 0;
-    gap: 1.5rem;
-  }
-
   .main-bottom-article-card-container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 2rem;
   }
 
   .card-type-main-bottom-article {
-    min-width: 14rem;
-    max-width: min-content;
+    min-width: 30%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
