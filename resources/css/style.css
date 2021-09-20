@@ -1338,8 +1338,7 @@ footer {
   **/
 
   /* BOTTOM ARTICLE */
-  .main-bottom-article-card-container,
-  .column {
+  .main-bottom-article-card-container {
     gap: 2rem;
     margin: 0;
     padding: 0;
@@ -1347,10 +1346,7 @@ footer {
 
   .main-bottom-article-card-container {
     width: 100%;
-  }
-
-  .A {
-    height: 100%;
+    flex-wrap: nowrap;
   }
 
   /**
