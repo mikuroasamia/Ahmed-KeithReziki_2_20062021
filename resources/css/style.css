@@ -1358,7 +1358,7 @@ footer {
   }
 
   .main-bottom-article-card-container {
-    height: 25rem;
+    height: 32rem;
     justify-content: flex-start;
   }
 
@@ -1371,16 +1371,18 @@ footer {
   }
 
   .B-01 img {
-    height: 60%;
+    height: 13rem;
   }
 
   .B-02 img {
-    height: 40%;
+    height: 9.5rem;
   }
 
-  .C-01 img,
+  .C-01 img {
+    height: 13rem;
+  }
+
   .C-02 img {
-    height: 50%;
   }
 
   .column {
