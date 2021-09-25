@@ -1324,7 +1324,8 @@ footer {
 
   /* ASIDE */
   .card-type-aside {
-    height: 9rem;
+    width: 100%;
+    min-height: 8rem;
   }
 
   /**
