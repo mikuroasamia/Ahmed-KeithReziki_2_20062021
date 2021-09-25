@@ -642,10 +642,11 @@ main aside {
 }
 
 .card-type-aside {
-  width: 100%;
+  max-width: 21rem;
   height: 8rem;
   border-radius: 10px;
   background-color: #fff;
+  justify-content: center;
 }
 
 .card-type-aside-span,
