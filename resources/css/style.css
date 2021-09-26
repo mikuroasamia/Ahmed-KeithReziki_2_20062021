@@ -662,6 +662,7 @@ main aside {
 }
 
 .card-type-aside-span {
+  width: 100%;
   overflow: hidden;
   border: 2px solid #fff;
   border-radius: 10px 0 0 10px;
