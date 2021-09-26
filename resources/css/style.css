@@ -656,11 +656,6 @@ main aside {
   justify-content: center;
 }
 
-.card-type-aside-span,
-.card-type-aside-img-container {
-  justify-content: center;
-}
-
 .card-type-aside-img-container {
   width: 40%;
   padding: 3px;
@@ -1364,6 +1359,10 @@ footer {
 
   .C {
     height: 40%;
+  }
+
+  .grid-container {
+    display: grid;
   }
 
   /**
