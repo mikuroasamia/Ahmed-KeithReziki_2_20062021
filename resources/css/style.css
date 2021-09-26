@@ -1336,34 +1336,57 @@ footer {
 
   .card-type-main-bottom-article {
     width: 100%;
-  }
-
-  .main-bottom-article-card-container {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    flex-wrap: nowrap;
-  }
-
-  .grid-container {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 70%);
-    /* grid-auto-columns: repeat(4, 70%); */
-    /* grid-auto-rows: 13rem; */
-    gap: 2rem;
     justify-content: initial;
   }
 
-  .grid-container div {
-    background-color: #deebff;
+  .card-type-main-bottom-article img {
+    height: 100%;
+  }
+
+  .grid-container {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 6rem);
+    /* grid-auto-rows: ; */
+    gap: 2rem;
   }
 
   .grid-item-1 {
-    /* grid-template-columns: 20%; */
+    grid-row: 1/6;
+  }
+
+  .grid-item-1 img {
+    height: 100%;
+  }
+
+  .grid-item-2 {
+    grid-row: 1/4;
+  }
+
+  .grid-item-2 img {
+    /* height: 80%; */
+  }
+
+  .grid-item-3 {
+    grid-row: 4/6;
+  }
+
+  .grid-item-3 img {
+    height: 100%;
+  }
+
+  .grid-item-4 {
+    grid-row: 1/6;
+  }
+
+  .grid-item-5 {
+    grid-row: 1/3;
+  }
+
+  .grid-item-6 {
+    grid-row: 3/6;
   }
 
   /**
