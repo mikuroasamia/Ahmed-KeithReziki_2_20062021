@@ -763,7 +763,7 @@ main aside {
   object-position: 0 18%;
 }
 
-.card-type-main-bottom-article-description {
+.bottom-article-description {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
   font-size: 1rem;
   height: 60px;
@@ -771,7 +771,7 @@ main aside {
   align-items: center;
 }
 
-.shadow:hover .card-type-main-bottom-article-description h4 {
+.shadow:hover .bottom-article-description h4 {
   font-size: 1.1rem;
   color: #0065fc;
 }
@@ -1402,6 +1402,22 @@ footer {
 
   .grid-item-6 {
     grid-row: 6/11;
+  }
+
+  /* BOTTOM ARTICLE - CARDS HEIGHT */
+
+  .card-type-main-bottom-article {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+
+  .bottom-img-container {
+    /* max-height: 80%; */
+  }
+
+  .bottom-article-description a h4 {
+    height: 200px;
   }
 
   /**
