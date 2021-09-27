@@ -1413,11 +1413,15 @@ footer {
   }
 
   .bottom-img-container {
-    /* max-height: 80%; */
+    height: 100%;
   }
 
-  .bottom-article-description a h4 {
-    height: 200px;
+  .bottom-img-container img {
+    height: 100%;
+  }
+
+  .bottom-article-description h4 {
+    height: 2rem;
   }
 
   /**
