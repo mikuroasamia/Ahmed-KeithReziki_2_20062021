@@ -1370,7 +1370,7 @@ footer {
     justify-content: initial;
   }
 
-  .card-type-main-bottom-article img {
+  .card-type-main-bottom-article a img {
     height: 100%;
   }
 
@@ -1388,15 +1388,19 @@ footer {
     overflow: hidden;
   }
 
-  .grid-item-1 img {
+  .grid-item-1 a img {
     height: 100%;
   }
 
-  .grid-item-2 {
-    grid-row: 1/7;
+  .grid-item-1 a {
+    height: 90%;
   }
 
-  .grid-item-2 img {
+  .grid-item-2 {
+    grid-row: 1/6;
+  }
+
+  .grid-item-2 a img {
     height: 82%;
   }
 
@@ -1404,13 +1408,17 @@ footer {
     grid-row: 7/11;
   }
 
-  .grid-item-3 img {
+  .grid-item-3 a img {
     height: 72%;
     object-position: center;
   }
 
   .grid-item-4 {
     grid-row: 1/11;
+  }
+
+  .grid-item-4 a {
+    height: 88%;
   }
 
   .grid-item-5 {
