@@ -1406,22 +1406,20 @@ footer {
 
   /* BOTTOM ARTICLE - CARDS HEIGHT */
 
-  .card-type-main-bottom-article {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
+  .card-type-main-bottom-article .bottom-img-container a {
+    display: block;
   }
 
-  .bottom-img-container {
+  .card-type-main-bottom-article .bottom-img-container,
+  .card-type-main-bottom-article .bottom-img-container a,
+  .card-type-main-bottom-article .bottom-img-container a img {
     height: 100%;
   }
 
-  .bottom-img-container img {
-    height: 100%;
-  }
-
-  .bottom-article-description h4 {
-    height: 2rem;
+  .card-type-main-bottom-article .bottom-article-description {
+    /* height: 100%; */
+    min-height: 60px;
+    max-height: 60px;
   }
 
   /**
