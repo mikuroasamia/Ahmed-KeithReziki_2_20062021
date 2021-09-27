@@ -65,6 +65,7 @@ a:visited {
 /*  NAVIGATION */
 
 #nav-container div a,
+main a,
 footer section a {
   text-decoration: none;
 }
@@ -586,11 +587,11 @@ main article {
 }
 
 .card-type-main-first-article-h4-container h4 {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .shadow:hover .card-type-main-first-article-h4-container h4 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #0065fc;
 }
 
@@ -706,7 +707,7 @@ main aside {
 }
 
 .shadow:hover .card-type-aside-h4-container h4 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #0065fc;
 }
 
