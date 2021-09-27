@@ -1352,7 +1352,6 @@ footer {
   /* ASIDE */
   .card-type-aside {
     width: 100%;
-    min-height: 8rem;
   }
 
   /**
@@ -1389,7 +1388,7 @@ footer {
     overflow: hidden;
   }
 
-  .grid-item-1 a img {
+  .grid-item-1 img {
     height: 100%;
   }
 
