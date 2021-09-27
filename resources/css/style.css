@@ -1371,7 +1371,7 @@ footer {
     justify-content: initial;
   }
 
-  .card-type-main-bottom-article a img {
+  .card-type-main-bottom-article img {
     height: 100%;
   }
 
@@ -1389,7 +1389,7 @@ footer {
     overflow: hidden;
   }
 
-  .grid-item-1 img {
+  .grid-item-1 a img {
     height: 100%;
   }
 
