@@ -999,7 +999,7 @@ footer {
   *
   *
   **/
-  footer {
+  footer .wrapper {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
@@ -1411,7 +1411,14 @@ footer {
   /* FOOTER */
 
   footer {
-    justify-content: initial;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  footer .wrapper {
     gap: 10rem;
+    max-width: 1400px;
+    justify-content: initial;
   }
 }
