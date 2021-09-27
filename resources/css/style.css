@@ -760,14 +760,19 @@ footer h3 {
 }
 
 footer,
-footer section {
+.wrapper,
+.wrapper section {
   display: flex;
   flex-direction: column;
 }
 
-footer section {
+.wrapper {
   align-items: flex-start;
-  gap: 0.5rem;
+  gap: 2rem;
+}
+
+.wrapper section {
+  gap: 1rem;
 }
 
 footer {
