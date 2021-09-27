@@ -638,6 +638,7 @@ main aside {
 
 .main-aside-h2-container,
 .card-type-aside,
+.card-type-aside a,
 .card-type-aside-side-description,
 .card-type-aside-h4-container,
 .card-type-aside-img-container,
@@ -1364,12 +1365,13 @@ footer {
 
   /* BOTTOM ARTICLE */
 
-  .card-type-main-bottom-article {
+  .card-type-main-bottom-article,
+  .card-type-main-bottom-article a {
     width: 100%;
     justify-content: initial;
   }
 
-  .card-type-main-bottom-article img {
+  .card-type-main-bottom-article a img {
     height: 100%;
   }
 
