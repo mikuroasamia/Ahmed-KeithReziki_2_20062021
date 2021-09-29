@@ -1060,7 +1060,8 @@ footer {
 *
 *
 **/
-@media screen and (min-device-width: 1024px) {
+@media (max-width: 1440px) and (min-width: 1024px) {
+  /* @media screen and (min-device-width: 1024px) */
   /**
   *
   *
