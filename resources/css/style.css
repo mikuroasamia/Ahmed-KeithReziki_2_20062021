@@ -450,6 +450,7 @@ form input[type="search"]::placeholder {
   height: 50px;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  padding-left: 1rem;
   gap: 1rem;
 }
 
@@ -917,6 +918,7 @@ footer {
     height: 50px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    padding-left: 0.5rem;
     gap: 1rem;
   }
 
