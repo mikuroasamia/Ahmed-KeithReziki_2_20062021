@@ -11,9 +11,6 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -146,6 +143,10 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   font-size: 1.2rem;
+}
+
+nav div {
+  width: 100%;
 }
 
 .nav-logo {
@@ -1078,6 +1079,10 @@ footer {
     padding: 0;
     justify-content: flex-end;
     gap: 0;
+  }
+
+  nav div {
+    width: initial;
   }
 
   #nav-container * {
