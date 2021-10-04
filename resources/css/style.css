@@ -11,8 +11,6 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -281,13 +279,8 @@ header p {
   justify-content: center;
 }
 
-form input[type="search"]::-webkit-input-placeholder,
-form input[type="search"]::-moz-placeholder,
-form input[type="search"]:-moz-placeholder {
+#marseille-placeholder::placeholder {
   opacity: 1;
-}
-
-form input[type="search"]::placeholder {
   color: #000000;
   font-size: 1.3em;
   font-weight: bold;
