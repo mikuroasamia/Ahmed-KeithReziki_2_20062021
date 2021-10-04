@@ -36,21 +36,18 @@ body * {
 }
 
 /*  UNORDERED LISTS */
-
 ul {
   list-style: none;
   display: flex;
 }
 
 /*  LINKS */
-
 a,
 a:visited {
   color: black;
 }
 
 /*  NAVIGATION */
-
 #nav-container div a,
 main a,
 footer section a {
@@ -84,7 +81,6 @@ footer section a {
 }
 
 /* FOOTER */
-
 footer section a {
   font-weight: 500;
 }
