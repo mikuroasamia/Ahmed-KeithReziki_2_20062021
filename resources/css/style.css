@@ -289,7 +289,7 @@ form input[type="search"]:-moz-placeholder {
 
 form input[type="search"]::placeholder {
   color: #000000;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
@@ -1228,7 +1228,7 @@ footer {
   #marseille-placeholder::placeholder {
     width: 250px;
     color: #000000;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin: auto;
   }
