@@ -206,6 +206,7 @@ nav div {
   *
   **/
 
+/* HEADER */
 header {
   padding: 2rem 1rem;
 }
@@ -243,8 +244,6 @@ header p {
   min-height: 3rem;
   margin: 0;
 }
-
-/* FORM MAP ICON */
 
 /* FORM MAP ICON */
 .fa-map-marker-alt {
@@ -492,6 +491,11 @@ main section {
   border-radius: 20px;
 }
 
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 /**
   *
   *
@@ -603,12 +607,6 @@ main section {
   **/
 
 /* ASIDE */
-
-.main-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
 main aside {
   width: 100%;
   padding: 2rem 1rem;
@@ -707,7 +705,6 @@ main aside {
 }
 
 /* MAIN - BOTTOM SECTION */
-
 .main-bottom-section,
 .main-bottom-section-card-container,
 .card-type-main-bottom-section,
@@ -769,7 +766,8 @@ main aside {
 *
 **/
 
-footer h3 {
+/* FOOTER */
+footer div h3 {
   margin: 0.5rem 0;
 }
 
@@ -799,14 +797,6 @@ footer {
 /**
 *
 *
-    OTHER SIZES
-*
-*
-**/
-
-/**
-*
-*
                           *********************
                                   TABLET
                           *********************
@@ -817,10 +807,12 @@ footer {
 /**
 *
 *
-    MIN-WIDTH 768px
+    TABLET - MIN-WIDTH 768px
 *
 *
 **/
+
+/* TABLET */
 @media (min-width: 768px) {
   /**
   *
@@ -861,7 +853,6 @@ footer {
   }
 
   /* HEADER - FILTERS */
-  /* FILTERS */
   .header-filter-container {
     flex-direction: row;
     justify-content: flex-start;
@@ -930,7 +921,6 @@ footer {
   **/
 
   /* MAIN */
-
   .main-wrapper,
   .main-first-section,
   main aside {
@@ -984,13 +974,11 @@ footer {
   **/
 
   /* MAIN - BOTTOM SECTION */
-
-  /* RESET */
-
   .main-bottom-section {
     margin-top: 2rem;
   }
 
+  /* MAIN - BOTTOM SECTION CARD CONTAINER */
   .main-bottom-section-card-container {
     display: flex;
     flex-direction: row;
@@ -1000,6 +988,7 @@ footer {
     gap: 2rem;
   }
 
+  /* MAIN - BOTTOM SECTION CARDS */
   .card-type-main-bottom-section {
     width: 30%;
     margin: 0;
@@ -1034,18 +1023,12 @@ footer {
 /**
 *
 *
-  BODY 
+    DESKTOP - MIN-WIDTH 1024px
 *
 *
 **/
 
-/**
-*
-*
-    MIN-WIDTH 1000px
-*
-*
-**/
+/* DESKTOP */
 @media screen and (min-width: 1024px) {
   /**
   *
@@ -1151,8 +1134,15 @@ footer {
     order: 1;
   }
 
-  /* IMAGES */
+  /**
+  *
+  *
+    LOGO
+  *
+  *
+  **/
 
+  /* LOGO */
   img#logo {
     padding-left: 1rem;
   }
@@ -1200,7 +1190,7 @@ footer {
     margin: 0;
   }
 
-  /* Form Icons (Icon in search bar) */
+  /* FORM MAP ICON */
   .fa-map-marker-alt {
     width: 50px;
     height: auto;
@@ -1218,7 +1208,7 @@ footer {
     font-size: 1rem;
   }
 
-  /* Form Input */
+  /* FORM INPUT */
   #form input {
     display: flex;
     justify-content: center;
@@ -1276,8 +1266,7 @@ footer {
   *
   **/
 
-  /* HEADER - SEARCH BAR & FILTERS */
-
+  /* HEADER FILTERS */
   .header-filter-container {
     flex-wrap: nowrap;
     width: 100%;
@@ -1291,6 +1280,7 @@ footer {
   *
   **/
 
+  /* MAIN FIRST SECTION */
   .main-section,
   aside {
     background-color: #f2f2f2;
@@ -1352,7 +1342,6 @@ footer {
   **/
 
   /* BOTTOM SECTION */
-
   .card-type-main-bottom-section,
   .card-type-main-bottom-section a {
     width: 100%;
@@ -1394,7 +1383,6 @@ footer {
   }
 
   /* BOTTOM SECTION - CARDS HEIGHT */
-
   .card-type-main-bottom-section .bottom-img-container a {
     display: block;
   }
@@ -1424,7 +1412,6 @@ footer {
   **/
 
   /* FOOTER */
-
   footer {
     display: flex;
     flex-direction: row;
