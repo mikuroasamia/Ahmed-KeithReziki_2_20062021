@@ -47,6 +47,15 @@ a:visited {
   color: black;
 }
 
+/* CARDS SHADOW */
+.shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.shadow:hover {
+  background-color: #deebff;
+}
+
 /*  NAVIGATION */
 #nav-container div a,
 main a,
@@ -235,9 +244,9 @@ header p {
   margin: 0;
 }
 
-/* FORM GROW */
+/* FORM MAP ICON */
 
-/* Form Icons (Icon in search bar) */
+/* FORM MAP ICON */
 .fa-map-marker-alt {
   width: 3rem;
   height: auto;
@@ -255,7 +264,7 @@ header p {
   font-size: 0.9rem;
 }
 
-/* Form Input */
+/* FORM INPUT */
 #form input {
   min-width: 200px;
   display: flex;
@@ -304,6 +313,7 @@ form input[type="search"]::placeholder {
   border-bottom-right-radius: 12px;
 }
 
+/* FORM SEARCH ICON */
 .research-icon,
 .research-word {
   display: block;
@@ -324,6 +334,7 @@ form input[type="search"]::placeholder {
   justify-content: center;
 }
 
+/* FORM SEARCH WORD */
 .research-word {
   display: none;
 }
@@ -463,6 +474,7 @@ form input[type="search"]::placeholder {
   *
   **/
 
+/* MAIN */
 main,
 .main-first-section,
 main aside {
@@ -487,14 +499,8 @@ main section {
   *
   *
   **/
-.shadow {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
 
-.shadow:hover {
-  background-color: #deebff;
-}
-
+/* MAIN CARDS */
 .main-first-section-card-container {
   margin: 0;
   padding: 0;
