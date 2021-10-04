@@ -335,7 +335,7 @@ form input[type="search"]::placeholder {
 /**
   *
   *
-    HEADER - FILTERS
+    HEADER - section
   *
   *
   **/
@@ -468,18 +468,18 @@ form input[type="search"]::placeholder {
   **/
 
 main,
-.main-first-article,
+.main-first-section,
 main aside {
   display: flex;
   flex-direction: column;
 }
 
-.main-first-article,
+.main-first-section,
 aside {
   gap: 2rem;
 }
 
-main article {
+main section {
   padding: 2rem 1rem;
   border-radius: 20px;
 }
@@ -499,91 +499,91 @@ main article {
   background-color: #deebff;
 }
 
-.main-first-article-card-container {
+.main-first-section-card-container {
   margin: 0;
   padding: 0;
 }
 
-.main-first-article-card-container {
+.main-first-section-card-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   gap: 2rem;
 }
 
-.card-type-main-first-article-aside,
-.card-type-main-first-article-aside-description,
-.card-type-main-first-article-h4-container,
-.card-type-main-first-article-img-container,
-.card-type-main-first-article-span {
+.card-type-main-first-section-aside,
+.card-type-main-first-section-aside-description,
+.card-type-main-first-section-h4-container,
+.card-type-main-first-section-img-container,
+.card-type-main-first-section-span {
   display: flex;
 }
 
-.card-type-main-first-article-description,
-.card-type-main-first-article-h4-container {
+.card-type-main-first-section-description,
+.card-type-main-first-section-h4-container {
   flex-direction: column;
 }
 
-.card-type-main-first-article,
-.card-type-main-first-article-img-container {
+.card-type-main-first-section,
+.card-type-main-first-section-img-container {
   width: 100%;
 }
 
-.card-type-main-first-article-img-container,
-.card-type-main-first-article-span {
+.card-type-main-first-section-img-container,
+.card-type-main-first-section-span {
   justify-content: center;
   height: 8rem;
 }
 
-.card-type-main-first-article-span,
-.card-type-main-first-article-span img {
+.card-type-main-first-section-span,
+.card-type-main-first-section-span img {
   width: 100%;
 }
 
-.card-type-main-first-article {
+.card-type-main-first-section {
   border-radius: 20px;
   background-color: #fff;
 }
 
-.card-type-main-first-article-img-container {
+.card-type-main-first-section-img-container {
   padding: 3px;
 }
 
-.card-type-main-first-article-span {
+.card-type-main-first-section-span {
   overflow: hidden;
   border: 2px solid #fff;
   border-radius: 20px 20px 0 0;
 }
 
-.card-type-main-first-article-span img {
+.card-type-main-first-section-span img {
   object-fit: cover;
 }
 
-.card-type-main-first-article-description {
+.card-type-main-first-section-description {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
 }
 
-.card-type-main-first-article-description,
-.card-type-main-first-article-h4-container {
+.card-type-main-first-section-description,
+.card-type-main-first-section-h4-container {
   display: flex;
   gap: 0.5rem;
 }
 
-.card-type-main-first-article-h4-container h4 {
+.card-type-main-first-section-h4-container h4 {
   font-size: 1rem;
 }
 
-.shadow:hover .card-type-main-first-article-h4-container h4 {
+.shadow:hover .card-type-main-first-section-h4-container h4 {
   font-size: 1.1rem;
   color: #0065fc;
 }
 
-.card-type-main-first-article-h4-container p {
+.card-type-main-first-section-h4-container p {
   font-size: 0.9rem;
   font-weight: 500;
 }
 
-.card-type-main-first-article-star-container {
+.card-type-main-first-section-star-container {
   font-size: 0.8rem;
 }
 
@@ -615,7 +615,7 @@ main aside {
   background-color: #f2f2f2;
 }
 
-.main-first-article {
+.main-first-section {
   order: 1;
 }
 
@@ -704,32 +704,32 @@ main aside {
   font-size: 0.8rem;
 }
 
-/* MAIN - BOTTOM-ARTICLE */
+/* MAIN - BOTTOM-section */
 
-.main-bottom-article,
-.main-bottom-article-card-container,
-.card-type-main-bottom-article,
+.main-bottom-section,
+.main-bottom-section-card-container,
+.card-type-main-bottom-section,
 .column {
   display: flex;
   flex-direction: column;
 }
 
-.main-bottom-article,
-.main-bottom-article-card-container,
+.main-bottom-section,
+.main-bottom-section-card-container,
 .column {
   gap: 2rem;
 }
 
-.main-bottom-article {
+.main-bottom-section {
   padding-top: 0;
 }
 
-.card-type-main-bottom-article {
+.card-type-main-bottom-section {
   border-radius: 20px;
   background-color: #fff;
 }
 
-.card-type-main-bottom-article a img {
+.card-type-main-bottom-section a img {
   width: 100%;
   height: 9.5rem;
   object-fit: cover;
@@ -746,7 +746,7 @@ main aside {
   object-position: 0 18%;
 }
 
-.bottom-article-description {
+.bottom-section-description {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
   font-size: 1rem;
   height: 60px;
@@ -754,7 +754,7 @@ main aside {
   align-items: center;
 }
 
-.shadow:hover .bottom-article-description h4 a {
+.shadow:hover .bottom-section-description h4 a {
   font-size: 1.1rem;
   color: #0065fc;
 }
@@ -930,7 +930,7 @@ footer {
   /* MAIN */
 
   .main-wrapper,
-  .main-first-article,
+  .main-first-section,
   main aside {
     display: flex;
   }
@@ -940,17 +940,17 @@ footer {
     margin: 0 auto;
   }
 
-  /* MAIN - FIRST ARTICLE */
-  .main-first-article,
-  .main-first-article-card-container {
+  /* MAIN - FIRST section */
+  .main-first-section,
+  .main-first-section-card-container {
     width: 100%;
   }
 
-  .main-first-article {
+  .main-first-section {
     background-color: #f2f2f2;
   }
 
-  .main-first-article-card-container {
+  .main-first-section-card-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -959,7 +959,7 @@ footer {
     gap: 2rem;
   }
 
-  .card-type-main-first-article {
+  .card-type-main-first-section {
     width: 30%;
   }
 
@@ -976,20 +976,20 @@ footer {
   /**
   *
   *
-    MAIN - BOTTOM ARTICLE
+    MAIN - BOTTOM section
   *
   *
   **/
 
-  /* MAIN - BOTTOM ARTICLE */
+  /* MAIN - BOTTOM section */
 
   /* RESET */
 
-  .main-bottom-article {
+  .main-bottom-section {
     margin-top: 2rem;
   }
 
-  .main-bottom-article-card-container {
+  .main-bottom-section-card-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -998,7 +998,7 @@ footer {
     gap: 2rem;
   }
 
-  .card-type-main-bottom-article {
+  .card-type-main-bottom-section {
     width: 30%;
     margin: 0;
     display: flex;
@@ -1040,7 +1040,7 @@ footer {
 /**
 *
 *
-    MIN-WIDTH 1024px
+    MIN-WIDTH 1000px
 *
 *
 **/
@@ -1289,12 +1289,12 @@ footer {
   *
   **/
 
-  .main-article,
+  .main-section,
   aside {
     background-color: #f2f2f2;
   }
 
-  .main-first-article,
+  .main-first-section,
   aside {
     order: 0;
   }
@@ -1304,7 +1304,7 @@ footer {
     flex-direction: row;
   }
 
-  .main-first-article {
+  .main-first-section {
     min-width: 50%;
   }
 
@@ -1321,11 +1321,11 @@ footer {
   **/
 
   /* MAIN - CARDS */
-  .main-first-article-card-container {
+  .main-first-section-card-container {
     gap: 2rem;
   }
 
-  .card-type-main-first-article-h4-container h4 {
+  .card-type-main-first-section-h4-container h4 {
     font-size: 1rem;
   }
   /**
@@ -1344,15 +1344,15 @@ footer {
   /**
   *
   *
-    BOTTOM ARTICLE
+    BOTTOM section
   *
   *
   **/
 
-  /* BOTTOM ARTICLE */
+  /* BOTTOM section */
 
-  .card-type-main-bottom-article,
-  .card-type-main-bottom-article a {
+  .card-type-main-bottom-section,
+  .card-type-main-bottom-section a {
     width: 100%;
     justify-content: initial;
   }
@@ -1391,19 +1391,19 @@ footer {
     grid-row: 6/11;
   }
 
-  /* BOTTOM ARTICLE - CARDS HEIGHT */
+  /* BOTTOM section - CARDS HEIGHT */
 
-  .card-type-main-bottom-article .bottom-img-container a {
+  .card-type-main-bottom-section .bottom-img-container a {
     display: block;
   }
 
-  .card-type-main-bottom-article .bottom-img-container,
-  .card-type-main-bottom-article .bottom-img-container a,
-  .card-type-main-bottom-article .bottom-img-container a img {
+  .card-type-main-bottom-section .bottom-img-container,
+  .card-type-main-bottom-section .bottom-img-container a,
+  .card-type-main-bottom-section .bottom-img-container a img {
     height: 100%;
   }
 
-  .card-type-main-bottom-article .bottom-article-description {
+  .card-type-main-bottom-section .bottom-section-description {
     min-height: 60px;
     max-height: 60px;
   }
